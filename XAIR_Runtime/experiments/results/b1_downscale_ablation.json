@@ -1,0 +1,5434 @@
+{
+  "summary": {
+    "n_frames": 200,
+    "model": "qwen2.5vl:7b",
+    "by_side": {
+      "512": {
+        "n_ok": 200,
+        "n_total": 200,
+        "grounding": 0.395,
+        "grounding_k": 79,
+        "latency_p50_ms": 1433.3367180079222,
+        "errors": 0
+      },
+      "1024": {
+        "n_ok": 200,
+        "n_total": 200,
+        "grounding": 0.4,
+        "grounding_k": 80,
+        "latency_p50_ms": 2555.7514233514667,
+        "errors": 0
+      },
+      "2048": {
+        "n_ok": 200,
+        "n_total": 200,
+        "grounding": 0.405,
+        "grounding_k": 81,
+        "latency_p50_ms": 3260.8941183425486,
+        "errors": 0
+      }
+    }
+  },
+  "rows": [
+    {
+      "frame_id": "visa_cashew_00821",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 6165.289226919413,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00902",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1865.4558579437435,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_01299",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1529.9881380051374,
+      "error": null
+    },
+    {
+      "frame_id": "visa_cashew_00910",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1495.254301931709,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_01345",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1520.3395122662187,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_00243",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "RESUME",
+      "gt_action": "RESUME",
+      "latency_ms": 1521.5832041576505,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01374",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 1805.2177969366312,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_00060",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1472.0271462574601,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00047",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1559.4333689659834,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01217",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1374.6290928684175,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_00108",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1470.603947993368,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01512",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1487.6622729934752,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_00942",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 1402.2754533216357,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_00969",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1464.515266008675,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00586",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1334.311162121594,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_00624",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1371.871915180236,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01761",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1551.7398086376488,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_cable_00524",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1511.824511922896,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_cable_00070",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1508.4447166882455,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00769",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1367.2605827450752,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_00476",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1404.8859169706702,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_00504",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1399.0037208423018,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_00825",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1361.871019937098,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00300",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1392.3729928210378,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_00621",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 1499.2683487944305,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01452",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1464.9510132148862,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_01502",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1389.2858163453639,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_01421",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1381.811455823481,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00179",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1334.7983346320689,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_00226",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "RESUME",
+      "gt_action": "RESUME",
+      "latency_ms": 1376.332457177341,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_00610",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 1779.8951948061585,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00999",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1370.4281197860837,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01380",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1855.9021726250648,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_01411",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1399.2879651486874,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_01493",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1438.2155709899962,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_01511",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1422.5169261917472,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_01747",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1336.779628880322,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_01881",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "REJECT_TO_BIN",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1488.6082960292697,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_01824",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 1724.8115167021751,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00916",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 1309.0467574074864,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00877",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1360.2136448025703,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_01127",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1404.9126883037388,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_00152",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "REJECT_TO_BIN",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 1411.3440630026162,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_00127",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1371.9383017159998,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_00195",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 1545.151952188462,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_01369",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1359.6132299862802,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_01866",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1317.2274613752961,
+      "error": null
+    },
+    {
+      "frame_id": "visa_cashew_01204",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 1425.4409256391227,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_00507",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 1353.384654968977,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_00137",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1551.6586201265454,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_00886",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1422.2022569738328,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_01871",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1481.7616250365973,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_00579",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1376.5450958162546,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00063",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 1488.3756320923567,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_00560",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1455.0916450098157,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_01269",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1376.5865839086473,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00059",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1536.0617861151695,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_01587",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "REJECT_TO_BIN",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 1427.6720797643065,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00261",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1358.2045398652554,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00204",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 1364.4076162017882,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_01591",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 1480.3095627576113,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00114",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1328.9869027212262,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_00465",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1374.33749018237,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01274",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 1834.5918911509216,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00233",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1327.95035187155,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_00496",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1560.7380289584398,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01203",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1455.1520491950214,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_00497",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1796.7891241423786,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_01051",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "RESUME",
+      "gt_action": "RESUME",
+      "latency_ms": 1396.590129006654,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_01338",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1740.8568039536476,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_01304",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1528.2878447324038,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_01224",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1391.490080859512,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_01622",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1450.9437209926546,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_01320",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1489.7593869827688,
+      "error": null
+    },
+    {
+      "frame_id": "visa_cashew_00053",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1400.2645169384778,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01889",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1322.890697978437,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_01212",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1553.3710811287165,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_01150",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1392.1904042363167,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_00427",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1473.8352890126407,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_01119",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1305.7601521722972,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_00425",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1402.669751085341,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_00843",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1604.3462492525578,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_01949",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1489.6629196591675,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_01460",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1469.2770829424262,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_00232",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1438.5176938958466,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_00595",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1361.7171780206263,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_01321",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 1421.9532427377999,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_01077",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 1390.1597699150443,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_00720",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1374.1024802438915,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01426",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1475.2146191895008,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00478",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 1448.026109021157,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_01246",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1376.791815739125,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_01973",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1447.5362137891352,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_01326",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1473.277451004833,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01082",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1435.5842811055481,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_00879",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1432.2572788223624,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_00307",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1460.3674220852554,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_00529",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1450.3207500092685,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_00473",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 1465.461895801127,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_01832",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1458.2219710573554,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_00898",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1410.5231170542538,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_00945",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "RESUME",
+      "gt_action": "RESUME",
+      "latency_ms": 1491.202104371041,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_00571",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1378.1337109394372,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_01040",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1341.9401957653463,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_01202",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1368.0162518285215,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_01658",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 1415.1892946101725,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01263",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1449.5246689766645,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00591",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1305.8804818429053,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_00291",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1429.3765369802713,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_00835",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1461.4838580600917,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_01653",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1359.2829727567732,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_01955",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1362.6507436856627,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00169",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1327.0101808011532,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01770",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1436.2494279630482,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_00122",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 1785.0985252298415,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_01665",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1341.2790838629007,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00008",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 1350.9654621593654,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00338",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1315.0401744060218,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_01479",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1520.677287131548,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_01555",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 1359.973375685513,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_01922",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1402.243607211858,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00184",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1285.2816986851394,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01649",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1388.8167701661587,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_00658",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1450.2756362780929,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_01774",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1430.9636112302542,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_00348",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1427.27405205369,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01992",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1496.3549678213894,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_01389",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1678.3045320771635,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01418",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1525.3315027803183,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_01504",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1365.9893162548542,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_01373",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1380.3011649288237,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01966",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1784.6944062039256,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_01656",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 1532.3510938324034,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_01606",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1339.0629263594747,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_00716",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1534.5370913855731,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_01157",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1371.658775024116,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_01123",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1427.3747010156512,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01926",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1415.0994820520282,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_01972",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 1422.8585427626967,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01519",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1464.5628491416574,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_00337",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1496.0330710746348,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_00883",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1441.9741998426616,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_00399",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1543.0641919374466,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00459",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1298.9540030248463,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_00257",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 1464.7593637928367,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_01836",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1383.0685378052294,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01562",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1568.9129941165447,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_00934",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1353.4708293154836,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00897",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1354.7732578590512,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_00711",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1527.9640690423548,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_01993",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1536.4108518697321,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00416",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1332.1636361069977,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_01981",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 1728.1834073364735,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_00652",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1445.0664813630283,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_00796",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1365.5022699385881,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_00202",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1422.0696100965142,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_01406",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 1566.9654267840087,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00620",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1459.8922007717192,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_00806",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1459.1941558755934,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00812",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 1348.418234847486,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_01735",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1383.4476829506457,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_00211",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1452.825475949794,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_00584",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1509.8989647813141,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_cable_01849",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1426.4161931350827,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00757",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1352.2002319805324,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_00981",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1602.7622572146356,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_00764",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1516.470125876367,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_01727",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 1303.1202079728246,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01067",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1479.799893219024,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_00798",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1436.656457837671,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_00728",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "RESUME",
+      "gt_action": "RESUME",
+      "latency_ms": 1341.832092963159,
+      "error": null
+    },
+    {
+      "frame_id": "visa_cashew_00968",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1433.3367180079222,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_01536",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1458.9655082672834,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_01226",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1466.4733461104333,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_01829",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 1721.0085461847484,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00167",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1359.8293489776552,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00567",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1346.5116070583463,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_00166",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 1400.6929858587682,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00566",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1460.8058417215943,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01651",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 1484.9878437817097,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_01227",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1274.27529823035,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_01961",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1331.2439247965813,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_00089",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 1508.2197743467987,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_00078",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1481.3724071718752,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_01750",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1408.7536693550646,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_01485",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 1510.2116111665964,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_00875",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 1736.8955141864717,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_01401",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1331.493648700416,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_00967",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1409.6964029595256,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_01494",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 1442.6001477986574,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_00458",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1409.2308362014592,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01112",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1478.9706310257316,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00683",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1330.3964529186487,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_00700",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1417.475938796997,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_00271",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1471.7529020272195,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_01237",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1470.6155522726476,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00274",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1407.157612964511,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00803",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1402.349899057299,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_00542",
+      "max_side": 512,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1446.314673870802,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01960",
+      "max_side": 512,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1434.0138114057481,
+      "error": null
+    },
+    {
+      "frame_id": "visa_cashew_00821",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 7838.337121997029,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00902",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2628.2901032827795,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_01299",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 3095.344508998096,
+      "error": null
+    },
+    {
+      "frame_id": "visa_cashew_00910",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 3048.3536468818784,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_01345",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 2984.719021245837,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_00243",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "RESUME",
+      "gt_action": "RESUME",
+      "latency_ms": 2875.26911823079,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01374",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 2855.217097327113,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_00060",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2544.174498412758,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00047",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2354.91054225713,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01217",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2675.0192688778043,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_00108",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1658.3957360126078,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01512",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2988.0460030399263,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_00942",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 2334.3287920579314,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_00969",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 3265.981459058821,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00586",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1930.754889268428,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_00624",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2041.3913689553738,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01761",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2555.7514233514667,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_cable_00524",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2985.9338547103107,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_cable_00070",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 3017.486842814833,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00769",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2110.901740845293,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_00476",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 3034.6726938150823,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_00504",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2601.510976906866,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_00825",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 2091.3765118457377,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00300",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2003.0631050467491,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_00621",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 2293.386333156377,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01452",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 3246.5119319967926,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_01502",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2560.4979530908167,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_01421",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2987.103158608079,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00179",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1973.7437618896365,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_00226",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "RESUME",
+      "gt_action": "RESUME",
+      "latency_ms": 2135.508823208511,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_00610",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 3331.568487919867,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00999",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2124.9619708396494,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01380",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2272.202632855624,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_01411",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 3015.5632812529802,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_01493",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2249.6817889623344,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_01511",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 3031.076923944056,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_01747",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1984.410169068724,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_01881",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "REJECT_TO_BIN",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2340.8911442384124,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_01824",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 3271.621341817081,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00916",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 1943.2991580106318,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00877",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2548.391323070973,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_01127",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2994.3967168219388,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_00152",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "REJECT_TO_BIN",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 2084.625052753836,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_00127",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2121.6874439269304,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_00195",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 3211.6162767633796,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_01369",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2182.1298571303487,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_01866",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 2046.4376378804445,
+      "error": null
+    },
+    {
+      "frame_id": "visa_cashew_01204",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 3011.761553119868,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_00507",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "REJECT_TO_BIN",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 3149.148498196155,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_00137",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 3009.2169302515686,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_00886",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1713.3367047645152,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_01871",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 3290.517936926335,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_00579",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2381.8344241008162,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00063",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 2721.873724833131,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_00560",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 3143.5409211553633,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_01269",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2357.2139316238463,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00059",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2411.5345398895442,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_01587",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 1974.5080126449466,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00261",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2614.8562603630126,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00204",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 2566.112386994064,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_01591",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 2044.3767248652875,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00114",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 2101.7006090842187,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_00465",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2394.83087323606,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01274",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 2140.5541468411684,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00233",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 1948.6879287287593,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_00496",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2993.2583761401474,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01203",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2975.2701381221414,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_00497",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 3086.6749389097095,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_01051",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "RESUME",
+      "gt_action": "RESUME",
+      "latency_ms": 2539.4905898720026,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_01338",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 3334.8831068724394,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_01304",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 3174.351033754647,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_01224",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2884.572365321219,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_01622",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 3036.9070530869067,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_01320",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2846.532152965665,
+      "error": null
+    },
+    {
+      "frame_id": "visa_cashew_00053",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 3149.845528881997,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01889",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2520.0064536184072,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_01212",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2851.545741315931,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_01150",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2401.7723980359733,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_00427",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 3068.3361059054732,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_01119",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1983.3946852013469,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_00425",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2436.956575140357,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_00843",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2754.4322102330625,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_01949",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2948.938338086009,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_01460",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 3053.9268259890378,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_00232",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2870.5088361166418,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_00595",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 2046.8484992161393,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_01321",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 2433.7968290783465,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_01077",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 2531.4713940024376,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_00720",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 2828.6992297507823,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01426",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1988.7663582339883,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00478",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 2634.8586692474782,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_01246",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2104.0215878747404,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_01973",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2987.4070840887725,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_01326",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2897.91968325153,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01082",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2595.6053398549557,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_00879",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 3047.2011668607593,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_00307",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 3017.3675981350243,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_00529",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 3279.8404451459646,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_00473",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 3113.840281032026,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_01832",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2410.2295208722353,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_00898",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2067.1430132351816,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_00945",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "RESUME",
+      "gt_action": "RESUME",
+      "latency_ms": 1959.389443974942,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_00571",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2417.885625269264,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_01040",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2423.80353435874,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_01202",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2054.6877128072083,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_01658",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 2182.403465267271,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01263",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2390.784830786288,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00591",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2127.615225035697,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_00291",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2687.76013283059,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_00835",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 2592.0692081563175,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_01653",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2470.5309052951634,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_01955",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2371.043732855469,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00169",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 2029.7807292081416,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01770",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2602.881697937846,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_00122",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 2043.8672229647636,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_01665",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2073.610338848084,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00008",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 2474.1218481212854,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00338",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2390.6443412415683,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_01479",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2997.5153310224414,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_01555",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 1999.3612389080226,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_01922",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2304.8614459112287,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00184",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 2019.1753646358848,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01649",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2060.2207062765956,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_00658",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2870.8489681594074,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_01774",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2942.1670669689775,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_00348",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 3105.446237605065,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01992",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1956.075559835881,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_01389",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 3218.085277825594,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01418",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2175.7902768440545,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_01504",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2075.3536210395396,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_01373",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 2133.992516901344,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01966",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2245.3744830563664,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_01656",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 3043.0143899284303,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_01606",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "REJECT_TO_BIN",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2518.162358086556,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_00716",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2943.543720059097,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_01157",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2873.5946379601955,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_01123",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2821.1361272260547,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01926",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2231.3639079220593,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_01972",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 2998.0526100844145,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01519",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2275.0235497951508,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_00337",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2671.3656443171203,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_00883",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2843.339225742966,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_00399",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2844.8993302881718,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00459",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1910.956034436822,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_00257",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 3182.452549226582,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_01836",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2235.3678438812494,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01562",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2113.098511006683,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_00934",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2049.264585133642,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00897",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 2096.539095044136,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_00711",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2851.8485301174223,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_01993",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 3063.811839092523,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00416",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1949.1142146289349,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_01981",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 3289.3979838117957,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_00652",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1649.8174448497593,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_00796",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 2368.7802823260427,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_00202",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2669.79270381853,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_01406",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 3298.7256962805986,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00620",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2253.3302027732134,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_00806",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2884.197619743645,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00812",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 2082.901945337653,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_01735",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2593.2611506432295,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_00211",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2956.4583729952574,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_00584",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2164.273119997233,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_cable_01849",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2902.1275588311255,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00757",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2331.4470550976694,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_00981",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 3206.0350999236107,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_00764",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2831.285512074828,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_01727",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 2084.0690820477903,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01067",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1986.9727548211813,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_00798",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2966.0411002114415,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_00728",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "RESUME",
+      "gt_action": "RESUME",
+      "latency_ms": 2317.5163976848125,
+      "error": null
+    },
+    {
+      "frame_id": "visa_cashew_00968",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2875.8419658988714,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_01536",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 3016.7393130250275,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_01226",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 3405.2520119585097,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_01829",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 2015.9839699044824,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00167",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2180.40892155841,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00567",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2077.8133030980825,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_00166",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 2939.1910703852773,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00566",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 2228.240408934653,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01651",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 3357.6359231956303,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_01227",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1987.8420033492148,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_01961",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2094.1626131534576,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_00089",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 3074.998916592449,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_00078",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2850.684587843716,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_01750",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2106.875715777278,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_01485",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 3129.1282759048045,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_00875",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 3067.7957418374717,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_01401",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2459.3499689362943,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_00967",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1677.4144819937646,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_01494",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 2964.1697891056538,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_00458",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2388.162490911782,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01112",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 3045.726536773145,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00683",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 1965.1163816452026,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_00700",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 2981.651868671179,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_00271",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2988.791618961841,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_01237",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2505.5065392516553,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00274",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2374.711938202381,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00803",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2129.824575036764,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_00542",
+      "max_side": 1024,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 3074.1117880679667,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01960",
+      "max_side": 1024,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 3021.0243412293494,
+      "error": null
+    },
+    {
+      "frame_id": "visa_cashew_00821",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 12024.6621100232,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00902",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2488.870690111071,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_01299",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2935.8022129163146,
+      "error": null
+    },
+    {
+      "frame_id": "visa_cashew_00910",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 4565.753086004406,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_01345",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 2818.9419908449054,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_00243",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "RESUME",
+      "gt_action": "RESUME",
+      "latency_ms": 3027.9371798969805,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01374",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 4757.532716263086,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_00060",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 4568.222099915147,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00047",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2308.086635079235,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01217",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 4259.362387936562,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_00108",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 1730.5426197126508,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01512",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2928.5012260079384,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_00942",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 4215.443589258939,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_00969",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 3049.1307633928955,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00586",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 4450.062830932438,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_00624",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 4472.77327766642,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01761",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 4378.188863862306,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_cable_00524",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2961.1970530822873,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_cable_00070",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2923.9946170710027,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00769",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 4675.682866945863,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_00476",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2902.9412297531962,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_00504",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 4359.735284000635,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_00825",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 4482.196854893118,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00300",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 4517.87775196135,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_00621",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 2321.456655859947,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01452",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 3259.627542924136,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_01502",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 4324.885608162731,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_01421",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2890.2867790311575,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00179",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 4610.264280345291,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_00226",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "RESUME",
+      "gt_action": "RESUME",
+      "latency_ms": 4188.196264673024,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_00610",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 3250.8677151054144,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00999",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 4668.52469695732,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01380",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2347.764780279249,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_01411",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2858.059259131551,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_01493",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2241.355075966567,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_01511",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2920.28045700863,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_01747",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 4353.797723073512,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_01881",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "REJECT_TO_BIN",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2395.5613439902663,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_01824",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 3248.126523103565,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00916",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 4290.987016167492,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00877",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 4337.836126796901,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_01127",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 3085.8233980834484,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_00152",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "REJECT_TO_BIN",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 4462.720305193216,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_00127",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 4790.791265200824,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_00195",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 3075.5833396688104,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_01369",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 4628.937136381865,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_01866",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 4314.49830904603,
+      "error": null
+    },
+    {
+      "frame_id": "visa_cashew_01204",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 4560.351788066328,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_00507",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "REJECT_TO_BIN",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 3064.848504960537,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_00137",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 3096.4619647711515,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_00886",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1680.6906941346824,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_01871",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 3260.8941183425486,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_00579",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 4264.386689756066,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00063",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 2664.5584562793374,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_00560",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 3053.3746839500964,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_01269",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 4326.893100980669,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00059",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2325.380607973784,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_01587",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 4474.455573130399,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00261",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 4234.581856057048,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00204",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 4545.433027669787,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_01591",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 2057.555954903364,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00114",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 4396.746553014964,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_00465",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 4300.6372465752065,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01274",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 2180.1648712716997,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00233",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 4194.314396008849,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_00496",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 3041.950293816626,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01203",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 3240.063896868378,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_00497",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 4086.241074372083,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_01051",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "RESUME",
+      "gt_action": "RESUME",
+      "latency_ms": 4209.756020922214,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_01338",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 3349.0842138417065,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_01304",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 3179.8601769842207,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_01224",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 3096.543866209686,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_01622",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2894.500785972923,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_01320",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2878.5926341079175,
+      "error": null
+    },
+    {
+      "frame_id": "visa_cashew_00053",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 4484.480760060251,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01889",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 4046.6900477185845,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_01212",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2692.916969768703,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_01150",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 4220.006192103028,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_00427",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2995.11367501691,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_01119",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 4509.0501178056,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_00425",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 4851.963190827519,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_00843",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 4164.241395425051,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_01949",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2857.971633784473,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_01460",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 3007.5870091095567,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_00232",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 3019.1573868505657,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_00595",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 4632.126061245799,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_01321",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 4268.296041991562,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_01077",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 4045.6520686857402,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_00720",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 4175.835185684264,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01426",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2022.6495410315692,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00478",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 2580.105619970709,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_01246",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 4539.178928826004,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_01973",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2997.097139246762,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_01326",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 3021.492473781109,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01082",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 4362.616813741624,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_00879",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2892.6504738628864,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_00307",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 3094.124407041818,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_00529",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 3472.093302756548,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_00473",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 3081.5225690603256,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_01832",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2450.650714337826,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_00898",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 4570.779098197818,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_00945",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "RESUME",
+      "gt_action": "RESUME",
+      "latency_ms": 2005.8908802457154,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_00571",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 4231.140692252666,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_01040",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 4873.403226025403,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_01202",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 4175.518947187811,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_01658",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 4291.902276687324,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01263",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2422.2674360498786,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00591",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 4296.047976240516,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_00291",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 4333.04356969893,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_00835",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 4148.456551134586,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_01653",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 4204.725550021976,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_01955",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 4034.038793761283,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00169",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 4210.619968362153,
+      "error": null
+    },
+    {
+      "frame_id": "visa_chewinggum_01770",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 4389.771928079426,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_00122",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 2080.364340916276,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_01665",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 4331.6620867699385,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00008",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 4520.095830317587,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00338",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 4646.710378117859,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_01479",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2960.1515629328787,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_01555",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 4275.014418642968,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_01922",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2166.100464761257,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00184",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 4242.442129179835,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01649",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2073.509250767529,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_00658",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 3022.4137883633375,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_01774",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 2948.586676735431,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_screw_00348",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 3092.4466331489384,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01992",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 1964.3141170963645,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_01389",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 3291.631932836026,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01418",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2017.3633019439876,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_01504",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 4616.730851121247,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_01373",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 4238.478087820113,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01966",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2288.0779267288744,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_01656",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 3087.6981331966817,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb4_01606",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "REJECT_TO_BIN",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 4472.937892656773,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_00716",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2786.4708746783435,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_01157",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2957.813295070082,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_01123",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 4419.193482026458,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01926",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2198.0354618281126,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_01972",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 3050.5917500704527,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01519",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2228.88097865507,
+      "error": null
+    },
+    {
+      "frame_id": "visa_candle_00337",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 4575.819151010364,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_00883",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 2865.171184297651,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_00399",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2910.485747270286,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00459",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 4439.908272121102,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_00257",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 2971.039499156177,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_01836",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 4103.802132885903,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_01562",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2007.7478690072894,
+      "error": null
+    },
+    {
+      "frame_id": "visa_capsules_00934",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 4617.3014040105045,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00897",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 4125.3284038975835,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_00711",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2776.7303022556007,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_grid_01993",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2959.1061039827764,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00416",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 4361.683127935976,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_01981",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 3096.2244821712375,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_00652",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 1665.7506520859897,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_00796",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 4303.818576969206,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_00202",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 4119.1630018875,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_01406",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 3340.6395660713315,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00620",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2237.7058239653707,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_00806",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2953.1147559173405,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00812",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 4402.157120872289,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_01735",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 4265.622805804014,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_00211",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 3009.232013951987,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_00584",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2042.7094781771302,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_cable_01849",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2911.6837438195944,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb1_00757",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 4496.779006905854,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_00981",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 3138.199252076447,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_00764",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2853.337644599378,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_01727",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 4608.682821970433,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_pill_01067",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2045.230352319777,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_00798",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 3053.596905898303,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb2_00728",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "RESUME",
+      "gt_action": "RESUME",
+      "latency_ms": 4309.065801091492,
+      "error": null
+    },
+    {
+      "frame_id": "visa_cashew_00968",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 4509.128886274993,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_01536",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 3058.934250846505,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_leather_01226",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 3269.8611989617348,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_01829",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 2040.7117661088705,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_00167",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 4500.107516068965,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00567",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 4458.560065831989,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_wood_00166",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 3043.6278199777007,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00566",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 2218.3305812068284,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01651",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 3430.0725050270557,
+      "error": null
+    },
+    {
+      "frame_id": "visa_fryum_01227",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 4550.889908801764,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_01961",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 4170.810458716005,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_00089",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 2830.871084704995,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_00078",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "STOP",
+      "latency_ms": 3012.0217367075384,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_01750",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 4456.882094964385,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_01485",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "STOP",
+      "gt_action": "RESUME",
+      "latency_ms": 4163.8641981408,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_capsule_00875",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "E_STOP",
+      "latency_ms": 3306.63940589875,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni2_01401",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "HOLD_FOR_OPERATOR",
+      "latency_ms": 4578.332534991205,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_metal_nut_00967",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 1715.4804640449584,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_hazelnut_01494",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "REJECT_TO_BIN",
+      "latency_ms": 3010.159587021917,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_tile_00458",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2370.2674857340753,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01112",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 3074.2949941195548,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pcb3_00683",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 4338.745980989188,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_zipper_00700",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 3183.6167848668993,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_00271",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 2883.3895861171186,
+      "error": null
+    },
+    {
+      "frame_id": "visa_pipe_fryum_01237",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 4271.2768986821175,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_bottle_00274",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "RESUME",
+      "gt_action": "STOP",
+      "latency_ms": 2196.1003760807216,
+      "error": null
+    },
+    {
+      "frame_id": "visa_macaroni1_00803",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "ACCEPT",
+      "gt_action": "ACCEPT",
+      "latency_ms": 4594.540004152805,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_carpet_00542",
+      "max_side": 2048,
+      "grounding_correct": true,
+      "action": "STOP",
+      "gt_action": "STOP",
+      "latency_ms": 2954.8616711981595,
+      "error": null
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01960",
+      "max_side": 2048,
+      "grounding_correct": false,
+      "action": "ACCEPT",
+      "gt_action": "SLOW_DOWN",
+      "latency_ms": 2981.586683075875,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "status": "phase_p_closed_after_blind_noctx_gap_fill",
+  "closed_at": "2026-08-15T15:27:43.289479+00:00",
+  "cache_ok_rows": 17992,
+  "counts_by_model": {
+    "qwen2.5vl:7b": 9999,
+    "qwen2.5vl:3b": 1995,
+    "llama3.2-vision:11b": 2000,
+    "gemma3:12b": 1998,
+    "qwen2.5vl:32b": 2000
+  },
+  "qwen2.5vl:7b_by_variant": {
+    "blind": 2000,
+    "blind_cot": 2000,
+    "blind_noctx": 1999,
+    "blind_ref": 2000,
+    "leaky": 2000
+  },
+  "blind_noctx_recovered": 31,
+  "blind_noctx_still_missing": [
+    {
+      "frame_id": "mvtec_ad_cable_01749",
+      "model": "qwen2.5vl:7b",
+      "variant": "blind_noctx",
+      "use_case": "uc4_conflict",
+      "path": "frames/mvtec_ad_cable_01749.png"
+    }
+  ],
+  "other_model_accepted_gaps": [
+    {
+      "frame_id": "mvtec_ad_toothbrush_00426",
+      "model": "qwen2.5vl:3b",
+      "variant": "blind",
+      "use_case": "uc2_restart"
+    },
+    {
+      "frame_id": "visa_chewinggum_01254",
+      "model": "qwen2.5vl:3b",
+      "variant": "blind",
+      "use_case": "uc5_safety"
+    },
+    {
+      "frame_id": "mvtec_ad_toothbrush_01520",
+      "model": "qwen2.5vl:3b",
+      "variant": "blind",
+      "use_case": "uc2_restart"
+    },
+    {
+      "frame_id": "mvtec_ad_transistor_01682",
+      "model": "qwen2.5vl:3b",
+      "variant": "blind",
+      "use_case": "uc3_speed"
+    },
+    {
+      "frame_id": "visa_pcb2_01980",
+      "model": "qwen2.5vl:3b",
+      "variant": "blind",
+      "use_case": "uc1_triage"
+    },
+    {
+      "frame_id": "visa_pcb2_00194",
+      "model": "gemma3:12b",
+      "variant": "blind",
+      "use_case": "uc5_safety"
+    },
+    {
+      "frame_id": "visa_pcb3_01270",
+      "model": "gemma3:12b",
+      "variant": "blind",
+      "use_case": "uc4_conflict"
+    }
+  ],
+  "note": "Recovered 31/32 previously deferred 7b blind_noctx gaps via 768/512px encode. One cable frame still crashes the Ollama runner under blind_noctx."
+}

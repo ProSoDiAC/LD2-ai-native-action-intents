@@ -1,0 +1,85 @@
+{
+  "mode": "xair (optimistic gate recheck), adapter to XAIR over HTTP",
+  "p50_range_ms": [
+    5.518832243978977,
+    8.141526952385902
+  ],
+  "p95_range_ms": [
+    6.828788202255964,
+    20.420267712324858
+  ],
+  "runs": [
+    {
+      "run": 1,
+      "n": 200,
+      "run_utc": "2026-09-27T17:06:41Z",
+      "p50_ms": 8.141526952385902,
+      "p95_ms": 20.420267712324858,
+      "host": "dagati-llm169",
+      "loadavg_1m": 53.55,
+      "xair_version": "1.4.0",
+      "code_commit": "b156b8e",
+      "runtime_or_gateway_modified": false
+    },
+    {
+      "run": 2,
+      "n": 200,
+      "run_utc": "2026-09-27T17:06:42Z",
+      "p50_ms": 5.518832243978977,
+      "p95_ms": 13.316765893250704,
+      "host": "dagati-llm169",
+      "loadavg_1m": 52.86,
+      "xair_version": "1.4.0",
+      "code_commit": "b156b8e",
+      "runtime_or_gateway_modified": false
+    },
+    {
+      "run": 3,
+      "n": 200,
+      "run_utc": "2026-09-27T17:06:44Z",
+      "p50_ms": 5.932607688009739,
+      "p95_ms": 7.705079857259989,
+      "host": "dagati-llm169",
+      "loadavg_1m": 52.86,
+      "xair_version": "1.4.0",
+      "code_commit": "b156b8e",
+      "runtime_or_gateway_modified": false
+    },
+    {
+      "run": 4,
+      "n": 200,
+      "run_utc": "2026-09-27T17:06:45Z",
+      "p50_ms": 5.519784055650234,
+      "p95_ms": 9.883712977170944,
+      "host": "dagati-llm169",
+      "loadavg_1m": 52.86,
+      "xair_version": "1.4.0",
+      "code_commit": "b156b8e",
+      "runtime_or_gateway_modified": false
+    },
+    {
+      "run": 5,
+      "n": 200,
+      "run_utc": "2026-09-27T17:06:46Z",
+      "p50_ms": 5.779329687356949,
+      "p95_ms": 6.93106884136796,
+      "host": "dagati-llm169",
+      "loadavg_1m": 52.86,
+      "xair_version": "1.4.0",
+      "code_commit": "b156b8e",
+      "runtime_or_gateway_modified": false
+    },
+    {
+      "run": 6,
+      "n": 200,
+      "run_utc": "2026-09-27T17:06:48Z",
+      "p50_ms": 5.526585970073938,
+      "p95_ms": 6.828788202255964,
+      "host": "dagati-llm169",
+      "loadavg_1m": 52.47,
+      "xair_version": "1.4.0",
+      "code_commit": "b156b8e",
+      "runtime_or_gateway_modified": false
+    }
+  ]
+}

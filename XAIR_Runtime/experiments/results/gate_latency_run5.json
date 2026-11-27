@@ -1,0 +1,22 @@
+{
+  "n": 200,
+  "warmup": 10,
+  "mode": "xair",
+  "adapter": "http://127.0.0.1:19192",
+  "xair": "http://127.0.0.1:18180",
+  "host": "dagati-llm169",
+  "platform": "Linux-6.8.12-18-pve-x86_64-with-glibc2.35",
+  "loadavg_1m": 52.86,
+  "xair_version": "1.4.0",
+  "code_commit": "b156b8e",
+  "runtime_or_gateway_modified": false,
+  "latency_ms": {
+    "mean": 5.734824505634606,
+    "p50": 5.779329687356949,
+    "p95": 6.93106884136796,
+    "min": 3.9116907864809036,
+    "max": 8.919836021959782
+  },
+  "run_utc": "2026-09-27T17:06:46Z",
+  "note": "HTTP round trip adapter to XAIR on the CPU path (no GPU involved)."
+}

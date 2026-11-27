@@ -1,0 +1,275 @@
+{
+  "model": "qwen2.5vl:7b",
+  "blind_original": {
+    "n": 2000,
+    "accuracy": 0.517,
+    "accuracy_wilson95": [
+      0.49508759146693343,
+      0.5388472265346492
+    ],
+    "p_vs_0.5_binomial": 0.1340700685631298,
+    "majority_accuracy": 0.5,
+    "vs_majority_mcnemar": {
+      "b_model_only": 243,
+      "c_majority_only": 209,
+      "p_exact": 0.12052044976188758
+    },
+    "vs_majority_mcnemar_all_tiebreaks": {
+      "rules": [
+        {
+          "majority": {
+            "uc2_restart": "RESUME",
+            "uc4_conflict": "RESUME"
+          },
+          "b_model_only": 243,
+          "c_majority_only": 209,
+          "p_exact": 0.12052044976188758
+        },
+        {
+          "majority": {
+            "uc2_restart": "RESUME",
+            "uc4_conflict": "STOP"
+          },
+          "b_model_only": 43,
+          "c_majority_only": 9,
+          "p_exact": 2.0377698612961126e-06
+        },
+        {
+          "majority": {
+            "uc2_restart": "STOP",
+            "uc4_conflict": "RESUME"
+          },
+          "b_model_only": 419,
+          "c_majority_only": 385,
+          "p_exact": 0.2444795914992363
+        },
+        {
+          "majority": {
+            "uc2_restart": "STOP",
+            "uc4_conflict": "STOP"
+          },
+          "b_model_only": 219,
+          "c_majority_only": 185,
+          "p_exact": 0.10051002788092246
+        }
+      ],
+      "p_min": 2.0377698612961126e-06,
+      "p_max": 0.2444795914992363
+    },
+    "by_severity": {
+      "none": 0.791,
+      "minor": 0.20816326530612245,
+      "major": 0.27647058823529413
+    },
+    "defect_judgement": {
+      "TPR": 0.137,
+      "FPR": 0.031,
+      "balanced_accuracy": 0.553
+    },
+    "schema_valid_rate": 0.9165,
+    "schema_valid_repaired_rate": 1.0,
+    "emits_bare_defect_absent": 0.0835,
+    "latency_median_ms": 3252.368423505686,
+    "per_use_case": {
+      "uc1_triage": {
+        "n": 400,
+        "accuracy": 0.555,
+        "distinct_actions": 2,
+        "action_counts": {
+          "ACCEPT": 358,
+          "REJECT_TO_BIN": 42
+        },
+        "cohen_kappa": 0.15354985971753302
+      },
+      "uc2_restart": {
+        "n": 400,
+        "accuracy": 0.53,
+        "distinct_actions": 2,
+        "action_counts": {
+          "RESUME": 376,
+          "STOP": 24
+        },
+        "cohen_kappa": 0.06000000000000005
+      },
+      "uc3_speed": {
+        "n": 400,
+        "accuracy": 0.5,
+        "distinct_actions": 1,
+        "action_counts": {
+          "ACCEPT": 400
+        },
+        "cohen_kappa": 0.0
+      },
+      "uc4_conflict": {
+        "n": 400,
+        "accuracy": 0.5,
+        "distinct_actions": 1,
+        "action_counts": {
+          "STOP": 400
+        },
+        "cohen_kappa": 0.0
+      },
+      "uc5_safety": {
+        "n": 400,
+        "accuracy": 0.5,
+        "distinct_actions": 1,
+        "action_counts": {
+          "ACCEPT": 400
+        },
+        "cohen_kappa": 0.0
+      }
+    }
+  },
+  "blind_v2": {
+    "n": 2000,
+    "accuracy": 0.5355,
+    "accuracy_wilson95": [
+      0.5135946351532961,
+      0.5572692494970675
+    ],
+    "p_vs_0.5_binomial": 0.0016103118601828094,
+    "majority_accuracy": 0.5,
+    "vs_majority_mcnemar": {
+      "b_model_only": 123,
+      "c_majority_only": 52,
+      "p_exact": 8.14781785489015e-08
+    },
+    "vs_majority_mcnemar_all_tiebreaks": {
+      "rules": [
+        {
+          "majority": {
+            "uc2_restart": "RESUME",
+            "uc4_conflict": "RESUME"
+          },
+          "b_model_only": 123,
+          "c_majority_only": 52,
+          "p_exact": 8.14781785489015e-08
+        },
+        {
+          "majority": {
+            "uc2_restart": "RESUME",
+            "uc4_conflict": "STOP"
+          },
+          "b_model_only": 165,
+          "c_majority_only": 94,
+          "p_exact": 1.2123623882889902e-05
+        },
+        {
+          "majority": {
+            "uc2_restart": "STOP",
+            "uc4_conflict": "RESUME"
+          },
+          "b_model_only": 323,
+          "c_majority_only": 252,
+          "p_exact": 0.0034734425331336355
+        },
+        {
+          "majority": {
+            "uc2_restart": "STOP",
+            "uc4_conflict": "STOP"
+          },
+          "b_model_only": 365,
+          "c_majority_only": 294,
+          "p_exact": 0.0063518866376040106
+        }
+      ],
+      "p_min": 8.14781785489015e-08,
+      "p_max": 0.0063518866376040106
+    },
+    "by_severity": {
+      "none": 0.948,
+      "minor": 0.08979591836734693,
+      "major": 0.15490196078431373
+    },
+    "defect_judgement": {
+      "TPR": 0.121,
+      "FPR": 0.031,
+      "balanced_accuracy": 0.545
+    },
+    "schema_valid_rate": 0.63,
+    "schema_valid_repaired_rate": 1.0,
+    "emits_bare_defect_absent": 0.37,
+    "latency_median_ms": 3797.5970315746963,
+    "per_use_case": {
+      "uc1_triage": {
+        "n": 400,
+        "accuracy": 0.5325,
+        "distinct_actions": 3,
+        "action_counts": {
+          "ACCEPT": 370,
+          "REJECT_TO_BIN": 24,
+          "HOLD_FOR_OPERATOR": 6
+        },
+        "cohen_kappa": 0.09840412709126847
+      },
+      "uc2_restart": {
+        "n": 400,
+        "accuracy": 0.5,
+        "distinct_actions": 1,
+        "action_counts": {
+          "RESUME": 400
+        },
+        "cohen_kappa": 0.0
+      },
+      "uc3_speed": {
+        "n": 400,
+        "accuracy": 0.5025,
+        "distinct_actions": 2,
+        "action_counts": {
+          "ACCEPT": 399,
+          "SLOW_DOWN": 1
+        },
+        "cohen_kappa": 0.006267009562807339
+      },
+      "uc4_conflict": {
+        "n": 400,
+        "accuracy": 0.64,
+        "distinct_actions": 3,
+        "action_counts": {
+          "RESUME": 235,
+          "STOP": 150,
+          "ACCEPT": 15
+        },
+        "cohen_kappa": 0.3060240963855421
+      },
+      "uc5_safety": {
+        "n": 400,
+        "accuracy": 0.5025,
+        "distinct_actions": 3,
+        "action_counts": {
+          "ACCEPT": 391,
+          "REJECT_TO_BIN": 8,
+          "HOLD_FOR_OPERATOR": 1
+        },
+        "cohen_kappa": 0.025727644366110924
+      }
+    }
+  },
+  "v2_vs_original_same_frames": {
+    "n": 2000,
+    "accuracy_a": 0.5355,
+    "accuracy_b": 0.517,
+    "a_only_correct": 164,
+    "b_only_correct": 127,
+    "mcnemar_p_exact": 0.03464750798202877,
+    "same_action": 0.843,
+    "same_correctness": 0.8545,
+    "latency_median_a_ms": 3797.5970315746963,
+    "latency_median_b_ms": 3252.368423505686,
+    "latency_crosses_4000ms": 0.5335
+  },
+  "repeat_vs_original_same_frames": {
+    "n": 400,
+    "accuracy_a": 0.42,
+    "accuracy_b": 0.43,
+    "a_only_correct": 2,
+    "b_only_correct": 6,
+    "mcnemar_p_exact": 0.2890625,
+    "same_action": 0.9775,
+    "same_correctness": 0.98,
+    "latency_median_a_ms": 4682.867815019563,
+    "latency_median_b_ms": 3481.242091860622,
+    "latency_crosses_4000ms": 0.7825
+  },
+  "note": "Revision runs on the shared L40 (2026-09-23) while another GPU job was active: latencies are not comparable with Phase P and are not replayed through B2."
+}

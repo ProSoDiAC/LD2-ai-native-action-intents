@@ -1,0 +1,37 @@
+{
+  "xair": "http://127.0.0.1:18080",
+  "n_per_cell": 100,
+  "queue_ms": 50,
+  "cells": {
+    "none/readset": {
+      "committed": 100
+    },
+    "none/truth": {
+      "committed": 100
+    },
+    "invalidating/readset": {
+      "changed": 100
+    },
+    "invalidating/truth": {
+      "changed": 100
+    },
+    "predicate_preserving/readset": {
+      "changed": 100
+    },
+    "predicate_preserving/truth": {
+      "committed": 100
+    },
+    "irrelevant/readset": {
+      "committed": 100
+    },
+    "irrelevant/truth": {
+      "committed": 100
+    },
+    "none_age_expired/readset": {
+      "expired": 100
+    },
+    "none_age_expired/truth": {
+      "expired": 100
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "config": {
+    "model": "qwen2.5vl:7b",
+    "freshness_ms": 4000,
+    "p_drift": 0.5,
+    "drift_offset_ms": 250,
+    "n_frames": 500
+  },
+  "disagreements": [
+    0,
+    1,
+    2,
+    0,
+    0
+  ],
+  "max_rate": 0.0006666666666666666,
+  "max_distance_to_window_ms": 11.0121660400182,
+  "runs": [
+    {
+      "model": "qwen2.5vl:7b",
+      "seed": 1,
+      "n_frames": 500,
+      "n_comparisons": 3000,
+      "disagreements": 0,
+      "disagreement_rate": 0.0,
+      "max_distance_to_window_ms": null,
+      "discordant": [],
+      "provenance": {
+        "host": "dagati-llm169",
+        "platform": "Linux-6.8.12-18-pve-x86_64-with-glibc2.35",
+        "loadavg_1m": 39.8,
+        "xair_version": "1.4.0",
+        "code_commit": "b156b8e",
+        "runtime_or_gateway_modified": false
+      }
+    },
+    {
+      "model": "qwen2.5vl:7b",
+      "seed": 2,
+      "n_frames": 500,
+      "n_comparisons": 3000,
+      "disagreements": 1,
+      "disagreement_rate": 0.0003333333333333333,
+      "max_distance_to_window_ms": 11.0121660400182,
+      "discordant": [
+        {
+          "frame_id": "visa_chewinggum_01775",
+          "gate": "xair",
+          "anchor": "capture",
+          "latency_ms": 3988.987833959982,
+          "freshness_ms": 4000.0,
+          "offline_published": true,
+          "live_reason": "obsolete: elapsed 4002.3ms > 4000ms at release_at_publish"
+        }
+      ],
+      "provenance": {
+        "host": "dagati-llm169",
+        "platform": "Linux-6.8.12-18-pve-x86_64-with-glibc2.35",
+        "loadavg_1m": 43.48,
+        "xair_version": "1.4.0",
+        "code_commit": "b156b8e",
+        "runtime_or_gateway_modified": false
+      }
+    },
+    {
+      "model": "qwen2.5vl:7b",
+      "seed": 3,
+      "n_frames": 500,
+      "n_comparisons": 3000,
+      "disagreements": 2,
+      "disagreement_rate": 0.0006666666666666666,
+      "max_distance_to_window_ms": 2.116014016792178,
+      "discordant": [
+        {
+          "frame_id": "visa_pcb4_01412",
+          "gate": "xair",
+          "anchor": "capture",
+          "latency_ms": 3997.883985983208,
+          "freshness_ms": 4000.0,
+          "offline_published": true,
+          "live_reason": "obsolete: elapsed 4000.7ms > 4000ms at release_at_publish"
+        },
+        {
+          "frame_id": "visa_pcb2_01768",
+          "gate": "xair",
+          "anchor": "capture",
+          "latency_ms": 3998.667436186224,
+          "freshness_ms": 4000.0,
+          "offline_published": true,
+          "live_reason": "obsolete: elapsed 4000.3ms > freshness 4000ms"
+        }
+      ],
+      "provenance": {
+        "host": "dagati-llm169",
+        "platform": "Linux-6.8.12-18-pve-x86_64-with-glibc2.35",
+        "loadavg_1m": 41.25,
+        "xair_version": "1.4.0",
+        "code_commit": "b156b8e",
+        "runtime_or_gateway_modified": false
+      }
+    },
+    {
+      "model": "qwen2.5vl:7b",
+      "seed": 4,
+      "n_frames": 500,
+      "n_comparisons": 3000,
+      "disagreements": 0,
+      "disagreement_rate": 0.0,
+      "max_distance_to_window_ms": null,
+      "discordant": [],
+      "provenance": {
+        "host": "dagati-llm169",
+        "platform": "Linux-6.8.12-18-pve-x86_64-with-glibc2.35",
+        "loadavg_1m": 39.92,
+        "xair_version": "1.4.0",
+        "code_commit": "b156b8e",
+        "runtime_or_gateway_modified": false
+      }
+    },
+    {
+      "model": "qwen2.5vl:7b",
+      "seed": 5,
+      "n_frames": 500,
+      "n_comparisons": 3000,
+      "disagreements": 0,
+      "disagreement_rate": 0.0,
+      "max_distance_to_window_ms": null,
+      "discordant": [],
+      "provenance": {
+        "host": "dagati-llm169",
+        "platform": "Linux-6.8.12-18-pve-x86_64-with-glibc2.35",
+        "loadavg_1m": 42.52,
+        "xair_version": "1.4.0",
+        "code_commit": "b156b8e",
+        "runtime_or_gateway_modified": false
+      }
+    }
+  ],
+  "all_models": {
+    "gemma3:12b": {
+      "n_comparisons": 11940,
+      "disagreements": 0,
+      "disagreement_rate": 0.0,
+      "max_distance_to_window_ms": null
+    },
+    "llama3.2-vision:11b": {
+      "n_comparisons": 11940,
+      "disagreements": 0,
+      "disagreement_rate": 0.0,
+      "max_distance_to_window_ms": null
+    },
+    "qwen2.5vl:32b": {
+      "n_comparisons": 11940,
+      "disagreements": 0,
+      "disagreement_rate": 0.0,
+      "max_distance_to_window_ms": null
+    },
+    "qwen2.5vl:3b": {
+      "n_comparisons": 11940,
+      "disagreements": 5,
+      "disagreement_rate": 0.0004187604690117253,
+      "max_distance_to_window_ms": 4.898251965641975
+    },
+    "qwen2.5vl:7b": {
+      "n_comparisons": 11940,
+      "disagreements": 3,
+      "disagreement_rate": 0.0002512562814070352,
+      "max_distance_to_window_ms": 5.015292903408408
+    }
+  }
+}

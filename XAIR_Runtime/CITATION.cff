@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "XAIR runtime, replay harness, perception outputs and result files for release-time validation of actions proposed by vision-language models"
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "D'Agati"
+    given-names: "Luca"
+  - family-names: "Mirto"
+    given-names: "Fabio Orazio"
+  - family-names: "Tricomi"
+    given-names: "Giuseppe"
+  - family-names: "Merlino"
+    given-names: "Giovanni"
+license: Apache-2.0
+repository-code: "https://github.com/ProSoDiAC/LD2-ai-native-action-intents"
+keywords:
+  - runtime assurance
+  - execution-time validation
+  - action intent
+  - ROS 2
+  - cyber-physical systems

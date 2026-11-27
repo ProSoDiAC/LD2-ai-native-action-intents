@@ -1,0 +1,338 @@
+{
+  "n_frames_all_five_models": 1993,
+  "a_star": 0.7142857142857143,
+  "per_model": {
+    "qwen2.5vl:7b": {
+      "n": 1993,
+      "accuracy": 0.5173105870546915,
+      "auroc": {
+        "conf": {
+          "auroc": 0.5050724827640444,
+          "ci95": [
+            0.48391672564887794,
+            0.5254341637919905
+          ],
+          "n_used": 1993
+        },
+        "speed": {
+          "auroc": 0.5051914557249184,
+          "ci95": [
+            0.4795402032701817,
+            0.5305563691736639
+          ],
+          "n_used": 1993
+        },
+        "agree": {
+          "auroc": 0.5561839725273285,
+          "ci95": [
+            0.5324614295848888,
+            0.5798341962642091
+          ],
+          "n_used": 1993
+        }
+      },
+      "test_accuracy_by_min_agreement": {
+        "0": {
+          "coverage": 1.0,
+          "accuracy": 0.5123152709359606
+        },
+        "1": {
+          "coverage": 0.9688013136288999,
+          "accuracy": 0.511864406779661
+        },
+        "2": {
+          "coverage": 0.6124794745484401,
+          "accuracy": 0.5576407506702413
+        },
+        "3": {
+          "coverage": 0.3842364532019704,
+          "accuracy": 0.5641025641025641
+        },
+        "4": {
+          "coverage": 0.2561576354679803,
+          "accuracy": 0.5512820512820513
+        }
+      },
+      "train_selected_min_agreement": null,
+      "threshold_search_train_selected": {
+        "conf": null,
+        "speed": null,
+        "agree": null,
+        "logistic": null
+      }
+    },
+    "qwen2.5vl:32b": {
+      "n": 1993,
+      "accuracy": 0.49121926743602606,
+      "auroc": {
+        "conf": {
+          "auroc": 0.5106305391525789,
+          "ci95": [
+            0.5042292947297969,
+            0.5172008681363904
+          ],
+          "n_used": 1993
+        },
+        "speed": {
+          "auroc": 0.5054316182233209,
+          "ci95": [
+            0.4798719477049938,
+            0.5296513047992701
+          ],
+          "n_used": 1993
+        },
+        "agree": {
+          "auroc": 0.5912042437539412,
+          "ci95": [
+            0.566630259491514,
+            0.6144336856530889
+          ],
+          "n_used": 1993
+        }
+      },
+      "test_accuracy_by_min_agreement": {
+        "0": {
+          "coverage": 1.0,
+          "accuracy": 0.48111658456486045
+        },
+        "1": {
+          "coverage": 0.8374384236453202,
+          "accuracy": 0.515686274509804
+        },
+        "2": {
+          "coverage": 0.4975369458128079,
+          "accuracy": 0.5676567656765676
+        },
+        "3": {
+          "coverage": 0.38095238095238093,
+          "accuracy": 0.5603448275862069
+        },
+        "4": {
+          "coverage": 0.2561576354679803,
+          "accuracy": 0.5512820512820513
+        }
+      },
+      "train_selected_min_agreement": null,
+      "threshold_search_train_selected": {
+        "conf": null,
+        "speed": null,
+        "agree": null,
+        "logistic": null
+      }
+    },
+    "qwen2.5vl:3b": {
+      "n": 1993,
+      "accuracy": 0.40792774711490215,
+      "auroc": {
+        "conf": {
+          "auroc": 0.5495048679300353,
+          "ci95": [
+            0.5287871926672002,
+            0.5703237092248179
+          ],
+          "n_used": 1993
+        },
+        "speed": {
+          "auroc": 0.502057664644443,
+          "ci95": [
+            0.4762860579948858,
+            0.5280505669248653
+          ],
+          "n_used": 1993
+        },
+        "agree": {
+          "auroc": 0.6323858069089165,
+          "ci95": [
+            0.6082167631470805,
+            0.6566922571768091
+          ],
+          "n_used": 1993
+        }
+      },
+      "test_accuracy_by_min_agreement": {
+        "0": {
+          "coverage": 1.0,
+          "accuracy": 0.4088669950738916
+        },
+        "1": {
+          "coverage": 0.9523809523809523,
+          "accuracy": 0.4224137931034483
+        },
+        "2": {
+          "coverage": 0.7175697865353038,
+          "accuracy": 0.4462242562929062
+        },
+        "3": {
+          "coverage": 0.38587848932676516,
+          "accuracy": 0.5319148936170213
+        },
+        "4": {
+          "coverage": 0.2561576354679803,
+          "accuracy": 0.5512820512820513
+        }
+      },
+      "train_selected_min_agreement": null,
+      "threshold_search_train_selected": {
+        "conf": null,
+        "speed": null,
+        "agree": null,
+        "logistic": null
+      }
+    },
+    "gemma3:12b": {
+      "n": 1993,
+      "accuracy": 0.369292523833417,
+      "auroc": {
+        "conf": {
+          "auroc": 0.7056408028086195,
+          "ci95": [
+            0.6841849157867,
+            0.7265157972095294
+          ],
+          "n_used": 1993
+        },
+        "speed": {
+          "auroc": 0.4590748331085054,
+          "ci95": [
+            0.43175360144122,
+            0.4861557624454843
+          ],
+          "n_used": 1993
+        },
+        "agree": {
+          "auroc": 0.6933336359863028,
+          "ci95": [
+            0.671707791132477,
+            0.715474454697943
+          ],
+          "n_used": 1993
+        }
+      },
+      "test_accuracy_by_min_agreement": {
+        "0": {
+          "coverage": 1.0,
+          "accuracy": 0.361247947454844
+        },
+        "1": {
+          "coverage": 0.6502463054187192,
+          "accuracy": 0.4595959595959596
+        },
+        "2": {
+          "coverage": 0.632183908045977,
+          "accuracy": 0.4623376623376623
+        },
+        "3": {
+          "coverage": 0.3727422003284072,
+          "accuracy": 0.5418502202643172
+        },
+        "4": {
+          "coverage": 0.2561576354679803,
+          "accuracy": 0.5512820512820513
+        }
+      },
+      "train_selected_min_agreement": null,
+      "threshold_search_train_selected": {
+        "conf": null,
+        "speed": null,
+        "agree": null,
+        "logistic": {
+          "test_coverage": 0.12643678160919541,
+          "test_accuracy": 0.6883116883116883,
+          "n_test_selected": 77
+        }
+      }
+    },
+    "llama3.2-vision:11b": {
+      "n": 1993,
+      "accuracy": 0.36828901154039134,
+      "auroc": {
+        "conf": {
+          "auroc": 0.6252887063040393,
+          "ci95": [
+            0.6000305634539882,
+            0.6494499185412876
+          ],
+          "n_used": 1832
+        },
+        "speed": {
+          "auroc": 0.5429084975100259,
+          "ci95": [
+            0.5169560899151693,
+            0.5690393382685107
+          ],
+          "n_used": 1993
+        },
+        "agree": {
+          "auroc": 0.670630317301262,
+          "ci95": [
+            0.6479134893291263,
+            0.6937760301841044
+          ],
+          "n_used": 1993
+        }
+      },
+      "test_accuracy_by_min_agreement": {
+        "0": {
+          "coverage": 1.0,
+          "accuracy": 0.36617405582922824
+        },
+        "1": {
+          "coverage": 0.8686371100164204,
+          "accuracy": 0.4102079395085066
+        },
+        "2": {
+          "coverage": 0.6486042692939245,
+          "accuracy": 0.43544303797468353
+        },
+        "3": {
+          "coverage": 0.34811165845648606,
+          "accuracy": 0.5283018867924528
+        },
+        "4": {
+          "coverage": 0.2561576354679803,
+          "accuracy": 0.5512820512820513
+        }
+      },
+      "train_selected_min_agreement": null,
+      "threshold_search_train_selected": {
+        "conf": null,
+        "speed": null,
+        "agree": null,
+        "logistic": {
+          "test_coverage": 0.052545155993431854,
+          "test_accuracy": 0.65625,
+          "n_test_selected": 32
+        }
+      }
+    }
+  },
+  "plurality_vote": {
+    "accuracy_all": 0.4721525338685399,
+    "accuracy_test": 0.45648604269293924,
+    "by_min_backing_models_all_frames": {
+      "2": {
+        "coverage": 1.0,
+        "accuracy": 0.4721525338685399
+      },
+      "3": {
+        "coverage": 0.8364274962368289,
+        "accuracy": 0.4787042591481704
+      },
+      "4": {
+        "coverage": 0.4189663823381836,
+        "accuracy": 0.5580838323353293
+      },
+      "5": {
+        "coverage": 0.2579026593075765,
+        "accuracy": 0.5544747081712063
+      }
+    },
+    "accuracy_by_use_case": {
+      "uc1_triage": 0.556390977443609,
+      "uc2_restart": 0.5251256281407035,
+      "uc3_speed": 0.2556390977443609,
+      "uc4_conflict": 0.5012531328320802,
+      "uc5_safety": 0.5226130653266332
+    }
+  }
+}

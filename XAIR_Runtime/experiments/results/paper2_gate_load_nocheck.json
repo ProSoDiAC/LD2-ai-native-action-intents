@@ -1,0 +1,353 @@
+{
+  "host": {
+    "python": "3.12.12",
+    "machine": "x86_64",
+    "cpus": 48
+  },
+  "gate": "single uvicorn worker, Redis context store, HTTP on localhost",
+  "phase1_throughput": [
+    {
+      "clients": 1,
+      "intents": 50,
+      "seconds": 0.123,
+      "throughput_per_s": 406.9,
+      "p50_ms": 2.16,
+      "p95_ms": 4.22,
+      "p99_ms": 5.8,
+      "mean_ms": 2.41
+    }
+  ],
+  "phase2_concurrency": {
+    "clients": 8,
+    "intents": 4000,
+    "writes": 856,
+    "flip_hz": 100.0,
+    "hold_ms": 20.0,
+    "writer": "read",
+    "revoked_at_validation": 2193,
+    "validated": 1807,
+    "committed": 1807,
+    "revoked_at_commit": 0,
+    "validation_revocation_reasons": {
+      "precondition_failed: line.state == 'RUN'": 2172,
+      "stale_context_snapshot": 21
+    },
+    "commit_reasons": {
+      "authorization_committed": 1807
+    },
+    "exposed_to_certain_change": 1796,
+    "certain_violations": 1796
+  },
+  "phase3_controls": [
+    {
+      "clients": 8,
+      "intents": 2000,
+      "writes": 0,
+      "flip_hz": 100.0,
+      "hold_ms": 20.0,
+      "writer": "none",
+      "revoked_at_validation": 0,
+      "validated": 2000,
+      "committed": 2000,
+      "revoked_at_commit": 0,
+      "validation_revocation_reasons": {},
+      "commit_reasons": {
+        "authorization_committed": 2000
+      },
+      "exposed_to_certain_change": 0,
+      "certain_violations": 0,
+      "rep": 0
+    },
+    {
+      "clients": 8,
+      "intents": 2000,
+      "writes": 0,
+      "flip_hz": 100.0,
+      "hold_ms": 20.0,
+      "writer": "none",
+      "revoked_at_validation": 0,
+      "validated": 2000,
+      "committed": 2000,
+      "revoked_at_commit": 0,
+      "validation_revocation_reasons": {},
+      "commit_reasons": {
+        "authorization_committed": 2000
+      },
+      "exposed_to_certain_change": 0,
+      "certain_violations": 0,
+      "rep": 1
+    },
+    {
+      "clients": 8,
+      "intents": 2000,
+      "writes": 0,
+      "flip_hz": 100.0,
+      "hold_ms": 20.0,
+      "writer": "none",
+      "revoked_at_validation": 0,
+      "validated": 2000,
+      "committed": 2000,
+      "revoked_at_commit": 0,
+      "validation_revocation_reasons": {},
+      "commit_reasons": {
+        "authorization_committed": 2000
+      },
+      "exposed_to_certain_change": 0,
+      "certain_violations": 0,
+      "rep": 2
+    },
+    {
+      "clients": 8,
+      "intents": 2000,
+      "writes": 0,
+      "flip_hz": 100.0,
+      "hold_ms": 20.0,
+      "writer": "none",
+      "revoked_at_validation": 0,
+      "validated": 2000,
+      "committed": 2000,
+      "revoked_at_commit": 0,
+      "validation_revocation_reasons": {},
+      "commit_reasons": {
+        "authorization_committed": 2000
+      },
+      "exposed_to_certain_change": 0,
+      "certain_violations": 0,
+      "rep": 3
+    },
+    {
+      "clients": 8,
+      "intents": 2000,
+      "writes": 0,
+      "flip_hz": 100.0,
+      "hold_ms": 20.0,
+      "writer": "none",
+      "revoked_at_validation": 0,
+      "validated": 2000,
+      "committed": 2000,
+      "revoked_at_commit": 0,
+      "validation_revocation_reasons": {},
+      "commit_reasons": {
+        "authorization_committed": 2000
+      },
+      "exposed_to_certain_change": 0,
+      "certain_violations": 0,
+      "rep": 4
+    },
+    {
+      "clients": 8,
+      "intents": 2000,
+      "writes": 0,
+      "flip_hz": 100.0,
+      "hold_ms": 20.0,
+      "writer": "irrelevant",
+      "revoked_at_validation": 9,
+      "validated": 1991,
+      "committed": 1991,
+      "revoked_at_commit": 0,
+      "validation_revocation_reasons": {
+        "stale_context_snapshot": 9
+      },
+      "commit_reasons": {
+        "authorization_committed": 1991
+      },
+      "exposed_to_certain_change": 0,
+      "certain_violations": 0,
+      "rep": 0
+    },
+    {
+      "clients": 8,
+      "intents": 2000,
+      "writes": 0,
+      "flip_hz": 100.0,
+      "hold_ms": 20.0,
+      "writer": "irrelevant",
+      "revoked_at_validation": 5,
+      "validated": 1995,
+      "committed": 1995,
+      "revoked_at_commit": 0,
+      "validation_revocation_reasons": {
+        "stale_context_snapshot": 5
+      },
+      "commit_reasons": {
+        "authorization_committed": 1995
+      },
+      "exposed_to_certain_change": 0,
+      "certain_violations": 0,
+      "rep": 1
+    },
+    {
+      "clients": 8,
+      "intents": 2000,
+      "writes": 0,
+      "flip_hz": 100.0,
+      "hold_ms": 20.0,
+      "writer": "irrelevant",
+      "revoked_at_validation": 7,
+      "validated": 1993,
+      "committed": 1993,
+      "revoked_at_commit": 0,
+      "validation_revocation_reasons": {
+        "stale_context_snapshot": 7
+      },
+      "commit_reasons": {
+        "authorization_committed": 1993
+      },
+      "exposed_to_certain_change": 0,
+      "certain_violations": 0,
+      "rep": 2
+    },
+    {
+      "clients": 8,
+      "intents": 2000,
+      "writes": 0,
+      "flip_hz": 100.0,
+      "hold_ms": 20.0,
+      "writer": "irrelevant",
+      "revoked_at_validation": 5,
+      "validated": 1995,
+      "committed": 1995,
+      "revoked_at_commit": 0,
+      "validation_revocation_reasons": {
+        "stale_context_snapshot": 5
+      },
+      "commit_reasons": {
+        "authorization_committed": 1995
+      },
+      "exposed_to_certain_change": 0,
+      "certain_violations": 0,
+      "rep": 3
+    },
+    {
+      "clients": 8,
+      "intents": 2000,
+      "writes": 0,
+      "flip_hz": 100.0,
+      "hold_ms": 20.0,
+      "writer": "irrelevant",
+      "revoked_at_validation": 5,
+      "validated": 1995,
+      "committed": 1995,
+      "revoked_at_commit": 0,
+      "validation_revocation_reasons": {
+        "stale_context_snapshot": 5
+      },
+      "commit_reasons": {
+        "authorization_committed": 1995
+      },
+      "exposed_to_certain_change": 0,
+      "certain_violations": 0,
+      "rep": 4
+    },
+    {
+      "clients": 8,
+      "intents": 2000,
+      "writes": 422,
+      "flip_hz": 100.0,
+      "hold_ms": 20.0,
+      "writer": "read",
+      "revoked_at_validation": 1121,
+      "validated": 879,
+      "committed": 879,
+      "revoked_at_commit": 0,
+      "validation_revocation_reasons": {
+        "precondition_failed: line.state == 'RUN'": 1098,
+        "stale_context_snapshot": 23
+      },
+      "commit_reasons": {
+        "authorization_committed": 879
+      },
+      "exposed_to_certain_change": 869,
+      "certain_violations": 869,
+      "rep": 0
+    },
+    {
+      "clients": 8,
+      "intents": 2000,
+      "writes": 488,
+      "flip_hz": 100.0,
+      "hold_ms": 20.0,
+      "writer": "read",
+      "revoked_at_validation": 1008,
+      "validated": 992,
+      "committed": 992,
+      "revoked_at_commit": 0,
+      "validation_revocation_reasons": {
+        "precondition_failed: line.state == 'RUN'": 994,
+        "stale_context_snapshot": 14
+      },
+      "commit_reasons": {
+        "authorization_committed": 992
+      },
+      "exposed_to_certain_change": 986,
+      "certain_violations": 986,
+      "rep": 1
+    },
+    {
+      "clients": 8,
+      "intents": 2000,
+      "writes": 452,
+      "flip_hz": 100.0,
+      "hold_ms": 20.0,
+      "writer": "read",
+      "revoked_at_validation": 1073,
+      "validated": 927,
+      "committed": 927,
+      "revoked_at_commit": 0,
+      "validation_revocation_reasons": {
+        "precondition_failed: line.state == 'RUN'": 1052,
+        "stale_context_snapshot": 21
+      },
+      "commit_reasons": {
+        "authorization_committed": 927
+      },
+      "exposed_to_certain_change": 926,
+      "certain_violations": 926,
+      "rep": 2
+    },
+    {
+      "clients": 8,
+      "intents": 2000,
+      "writes": 444,
+      "flip_hz": 100.0,
+      "hold_ms": 20.0,
+      "writer": "read",
+      "revoked_at_validation": 1101,
+      "validated": 899,
+      "committed": 899,
+      "revoked_at_commit": 0,
+      "validation_revocation_reasons": {
+        "precondition_failed: line.state == 'RUN'": 1082,
+        "stale_context_snapshot": 19
+      },
+      "commit_reasons": {
+        "authorization_committed": 899
+      },
+      "exposed_to_certain_change": 887,
+      "certain_violations": 887,
+      "rep": 3
+    },
+    {
+      "clients": 8,
+      "intents": 2000,
+      "writes": 447,
+      "flip_hz": 100.0,
+      "hold_ms": 20.0,
+      "writer": "read",
+      "revoked_at_validation": 1095,
+      "validated": 905,
+      "committed": 905,
+      "revoked_at_commit": 0,
+      "validation_revocation_reasons": {
+        "precondition_failed: line.state == 'RUN'": 1075,
+        "stale_context_snapshot": 20
+      },
+      "commit_reasons": {
+        "authorization_committed": 905
+      },
+      "exposed_to_certain_change": 899,
+      "certain_violations": 899,
+      "rep": 4
+    }
+  ]
+}

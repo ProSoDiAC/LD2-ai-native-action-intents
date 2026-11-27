@@ -1,0 +1,46 @@
+# --- Manuscript (kept locally, never published with the code) ---------------
+journal/
+
+# --- Secrets and machine-local configuration --------------------------------
+GPU_NVIDIA*
+config/*.env
+!config/*.env.example
+.env
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Runtime state -------------------------------------------------------------
+.run/
+*.pid
+*.log
+
+# --- Datasets (download with the scripts in manufacturing-a1/scripts/) --------
+XAIR_Runtime/experiments/datasets/raw/
+XAIR_Runtime/experiments/datasets/manufacturing-a1/frames/
+XAIR_Runtime/experiments/datasets/manufacturing-a1/context/
+
+# --- Large regenerable per-trial files (rebuilt by reproduce_paper2_offline.sh) --
+# The perception caches are tracked: they are the input of every offline analysis.
+XAIR_Runtime/experiments/results/*_trials*.jsonl
+XAIR_Runtime/experiments/results/*_trials*.csv
+XAIR_Runtime/experiments/results/figures/
+
+# --- Editors / OS ----------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+journal_overleaf/
+
+# --- Release-gate working draft (separate paper, not part of this artifact) ---
+release_gate/

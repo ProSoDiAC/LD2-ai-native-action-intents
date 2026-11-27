@@ -1,0 +1,173 @@
+{
+  "method": "PatchCore-style kNN on WideResNet-50-2 layer2+3 features (ImageNet), 224 px",
+  "train_per_category": 200,
+  "coreset_ratio": 0.1,
+  "seed": 0,
+  "torch": "2.2.0",
+  "torchvision": "0.17.0",
+  "gpu": "NVIDIA L40",
+  "categories": {
+    "mvtec_ad/bottle": {
+      "nominal_pool": 191,
+      "train_images": 191,
+      "bank_patches": 14974,
+      "fit_s": 68.3048598091118
+    },
+    "mvtec_ad/cable": {
+      "nominal_pool": 245,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 75.51388258859515
+    },
+    "mvtec_ad/capsule": {
+      "nominal_pool": 205,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 68.92719455296174
+    },
+    "mvtec_ad/carpet": {
+      "nominal_pool": 271,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 70.98570980411023
+    },
+    "mvtec_ad/grid": {
+      "nominal_pool": 248,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 65.27507899468765
+    },
+    "mvtec_ad/hazelnut": {
+      "nominal_pool": 394,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 69.9892555931583
+    },
+    "mvtec_ad/leather": {
+      "nominal_pool": 240,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 69.75388548895717
+    },
+    "mvtec_ad/metal_nut": {
+      "nominal_pool": 205,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 64.50422039208934
+    },
+    "mvtec_ad/pill": {
+      "nominal_pool": 256,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 67.6650993800722
+    },
+    "mvtec_ad/screw": {
+      "nominal_pool": 324,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 68.37068680580705
+    },
+    "mvtec_ad/tile": {
+      "nominal_pool": 226,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 65.51002914411947
+    },
+    "mvtec_ad/toothbrush": {
+      "nominal_pool": 35,
+      "train_images": 35,
+      "bank_patches": 2744,
+      "fit_s": 7.784548845142126
+    },
+    "mvtec_ad/transistor": {
+      "nominal_pool": 236,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 70.2863426269032
+    },
+    "mvtec_ad/wood": {
+      "nominal_pool": 229,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 67.43539675604552
+    },
+    "mvtec_ad/zipper": {
+      "nominal_pool": 235,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 67.27319697337225
+    },
+    "visa/candle": {
+      "nominal_pool": 963,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 67.47150248801336
+    },
+    "visa/capsules": {
+      "nominal_pool": 565,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 65.58341641305014
+    },
+    "visa/cashew": {
+      "nominal_pool": 463,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 64.19394668797031
+    },
+    "visa/chewinggum": {
+      "nominal_pool": 466,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 63.266087274067104
+    },
+    "visa/fryum": {
+      "nominal_pool": 463,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 62.320530579891056
+    },
+    "visa/macaroni1": {
+      "nominal_pool": 963,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 63.90512173669413
+    },
+    "visa/macaroni2": {
+      "nominal_pool": 963,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 64.09382503526285
+    },
+    "visa/pcb1": {
+      "nominal_pool": 967,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 62.99170756386593
+    },
+    "visa/pcb2": {
+      "nominal_pool": 964,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 64.24906420707703
+    },
+    "visa/pcb3": {
+      "nominal_pool": 969,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 64.53971179900691
+    },
+    "visa/pcb4": {
+      "nominal_pool": 968,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 62.28713288810104
+    },
+    "visa/pipe_fryum": {
+      "nominal_pool": 463,
+      "train_images": 200,
+      "bank_patches": 15680,
+      "fit_s": 64.04515053285286
+    }
+  }
+}

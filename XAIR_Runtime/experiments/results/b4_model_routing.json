@@ -1,0 +1,1302 @@
+{
+  "n_frames": 2000,
+  "split": {
+    "seed": 42,
+    "n_train": 1388,
+    "n_test": 612
+  },
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "freshness_policy": "adaptive",
+  "static_pareto": [
+    {
+      "model": "qwen2.5vl:3b",
+      "n": 1995,
+      "grounding": 0.4075187969924812,
+      "latency_p50_ms": 2633.165262872353,
+      "latency_mean_ms": 3397.657943791815
+    },
+    {
+      "model": "qwen2.5vl:7b",
+      "n": 2000,
+      "grounding": 0.517,
+      "latency_p50_ms": 3252.890168922022,
+      "latency_mean_ms": 3491.9672238702187
+    },
+    {
+      "model": "llama3.2-vision:11b",
+      "n": 2000,
+      "grounding": 0.3675,
+      "latency_p50_ms": 3368.0809079669416,
+      "latency_mean_ms": 7493.13554279663
+    },
+    {
+      "model": "gemma3:12b",
+      "n": 1998,
+      "grounding": 0.3688688688688689,
+      "latency_p50_ms": 3280.9536191634834,
+      "latency_mean_ms": 3272.2770888929363
+    },
+    {
+      "model": "qwen2.5vl:32b",
+      "n": 2000,
+      "grounding": 0.492,
+      "latency_p50_ms": 6818.836243357509,
+      "latency_mean_ms": 6705.858791232575
+    }
+  ],
+  "headline_p50": [
+    {
+      "router": "oracle",
+      "setting": "p50",
+      "grounding": 0.5781045751633986,
+      "latency_p50_ms": 3157.593230670318,
+      "mean_reward": 0.2215686274509804,
+      "utility": 0.2215686274509804,
+      "SAR": 0.3784313725490196,
+      "hazard": 0.030718954248366015,
+      "WRR": 0.008598144785384357,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:llama3.2-vision:11b",
+      "setting": "p50",
+      "grounding": 0.36437908496732024,
+      "latency_p50_ms": 3374.5009349659085,
+      "mean_reward": -0.634313725490196,
+      "utility": -0.634313725490196,
+      "SAR": 0.07320261437908497,
+      "hazard": 0.1196078431372549,
+      "WRR": 0.5995706455045511,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:8000ms",
+      "setting": "p50",
+      "grounding": 0.4330065359477125,
+      "latency_p50_ms": 3276.1900941841304,
+      "mean_reward": -0.9764705882352942,
+      "utility": -0.9764705882352942,
+      "SAR": 0.16241830065359478,
+      "hazard": 0.21601307189542482,
+      "WRR": 0.265916185608004,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:4000ms",
+      "setting": "p50",
+      "grounding": 0.4215686274509804,
+      "latency_p50_ms": 3235.2276160381734,
+      "mean_reward": -1.0379084967320262,
+      "utility": -1.0379084967320262,
+      "SAR": 0.1588235294117647,
+      "hazard": 0.22777777777777777,
+      "WRR": 0.2671446269980306,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:5000ms",
+      "setting": "p50",
+      "grounding": 0.41830065359477125,
+      "latency_p50_ms": 3237.05122503452,
+      "mean_reward": -1.0379084967320262,
+      "utility": -1.0379084967320262,
+      "SAR": 0.15718954248366013,
+      "hazard": 0.22745098039215686,
+      "WRR": 0.26893237221654553,
+      "n_seeds": 5
+    },
+    {
+      "router": "prior:accuracy",
+      "setting": "p50",
+      "grounding": 0.511437908496732,
+      "latency_p50_ms": 3290.574165992439,
+      "mean_reward": -1.1578431372549018,
+      "utility": -1.1578431372549018,
+      "SAR": 0.23169934640522877,
+      "hazard": 0.2738562091503268,
+      "WRR": 0.08061806115270473,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:7b",
+      "setting": "p50",
+      "grounding": 0.511437908496732,
+      "latency_p50_ms": 3290.574165992439,
+      "mean_reward": -1.1578431372549018,
+      "utility": -1.1578431372549018,
+      "SAR": 0.23169934640522877,
+      "hazard": 0.2738562091503268,
+      "WRR": 0.08061806115270473,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:32b",
+      "setting": "p50",
+      "grounding": 0.48039215686274506,
+      "latency_p50_ms": 6803.3919907175,
+      "mean_reward": -1.3032679738562092,
+      "utility": -1.3032679738562092,
+      "SAR": 0.23594771241830065,
+      "hazard": 0.30686274509803924,
+      "WRR": 0.020453062100519837,
+      "n_seeds": 5
+    },
+    {
+      "router": "cascade:vol",
+      "setting": "p50",
+      "grounding": 0.5065359477124183,
+      "latency_p50_ms": 3230.415374971926,
+      "mean_reward": -1.315686274509804,
+      "utility": -1.315686274509804,
+      "SAR": 0.25130718954248366,
+      "hazard": 0.3133986928104575,
+      "WRR": 0.0,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:3000ms",
+      "setting": "p50",
+      "grounding": 0.4035947712418301,
+      "latency_p50_ms": 2620.010561076924,
+      "mean_reward": -1.4019607843137254,
+      "utility": -1.4019607843137254,
+      "SAR": 0.19934640522875818,
+      "hazard": 0.3186274509803922,
+      "WRR": 0.03932321621259407,
+      "n_seeds": 5
+    },
+    {
+      "router": "prior:speed",
+      "setting": "p50",
+      "grounding": 0.4084967320261438,
+      "latency_p50_ms": 2657.529844902456,
+      "mean_reward": -1.4790849673202615,
+      "utility": -1.4790849673202615,
+      "SAR": 0.2019607843137255,
+      "hazard": 0.3356209150326797,
+      "WRR": 0.014488719272944752,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:3b",
+      "setting": "p50",
+      "grounding": 0.4084967320261438,
+      "latency_p50_ms": 2657.529844902456,
+      "mean_reward": -1.4790849673202615,
+      "utility": -1.4790849673202615,
+      "SAR": 0.2019607843137255,
+      "hazard": 0.3356209150326797,
+      "WRR": 0.014488719272944752,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:gemma3:12b",
+      "setting": "p50",
+      "grounding": 0.35947712418300654,
+      "latency_p50_ms": 3281.085295137018,
+      "mean_reward": -1.6516339869281045,
+      "utility": -1.6516339869281045,
+      "SAR": 0.17516339869281045,
+      "hazard": 0.36470588235294116,
+      "WRR": 0.018174549652921996,
+      "n_seeds": 5
+    }
+  ],
+  "table": [
+    {
+      "router": "cap:3000ms",
+      "setting": "p0",
+      "grounding": 0.4035947712418301,
+      "latency_p50_ms": 2620.010561076924,
+      "mean_reward": -2.2663398692810457,
+      "utility": -2.2663398692810457,
+      "SAR": 0.3839869281045752,
+      "hazard": 0.5261437908496732,
+      "WRR": 0.048582995951417005,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:3000ms",
+      "setting": "p25",
+      "grounding": 0.4035947712418301,
+      "latency_p50_ms": 2620.010561076924,
+      "mean_reward": -1.8009803921568626,
+      "utility": -1.8009803921568626,
+      "SAR": 0.2937908496732026,
+      "hazard": 0.41633986928104577,
+      "WRR": 0.04262896185734797,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:3000ms",
+      "setting": "p50",
+      "grounding": 0.4035947712418301,
+      "latency_p50_ms": 2620.010561076924,
+      "mean_reward": -1.4019607843137254,
+      "utility": -1.4019607843137254,
+      "SAR": 0.19934640522875818,
+      "hazard": 0.3186274509803922,
+      "WRR": 0.03932321621259407,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:3000ms",
+      "setting": "p75",
+      "grounding": 0.4035947712418301,
+      "latency_p50_ms": 2620.010561076924,
+      "mean_reward": -1.0303921568627452,
+      "utility": -1.0303921568627452,
+      "SAR": 0.10065359477124183,
+      "hazard": 0.22549019607843138,
+      "WRR": 0.034964646347184665,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:3000ms",
+      "setting": "p75_early",
+      "grounding": 0.4035947712418301,
+      "latency_p50_ms": 2620.010561076924,
+      "mean_reward": -1.0303921568627452,
+      "utility": -1.0303921568627452,
+      "SAR": 0.10065359477124183,
+      "hazard": 0.22549019607843138,
+      "WRR": 0.034964646347184665,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:4000ms",
+      "setting": "p0",
+      "grounding": 0.4215686274509804,
+      "latency_p50_ms": 3235.2276160381734,
+      "mean_reward": -1.8627450980392157,
+      "utility": -1.8627450980392157,
+      "SAR": 0.3088235294117647,
+      "hazard": 0.4117647058823529,
+      "WRR": 0.26744186046511625,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:4000ms",
+      "setting": "p25",
+      "grounding": 0.4215686274509804,
+      "latency_p50_ms": 3235.2276160381734,
+      "mean_reward": -1.4209150326797384,
+      "utility": -1.4209150326797384,
+      "SAR": 0.2349673202614379,
+      "hazard": 0.3137254901960784,
+      "WRR": 0.27073840075697325,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:4000ms",
+      "setting": "p50",
+      "grounding": 0.4215686274509804,
+      "latency_p50_ms": 3235.2276160381734,
+      "mean_reward": -1.0379084967320262,
+      "utility": -1.0379084967320262,
+      "SAR": 0.1588235294117647,
+      "hazard": 0.22777777777777777,
+      "WRR": 0.2671446269980306,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:4000ms",
+      "setting": "p75",
+      "grounding": 0.4215686274509804,
+      "latency_p50_ms": 3235.2276160381734,
+      "mean_reward": -0.6669934640522877,
+      "utility": -0.6669934640522877,
+      "SAR": 0.08137254901960785,
+      "hazard": 0.14444444444444443,
+      "WRR": 0.24291776209584431,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:4000ms",
+      "setting": "p75_early",
+      "grounding": 0.4215686274509804,
+      "latency_p50_ms": 3235.2276160381734,
+      "mean_reward": -0.6669934640522877,
+      "utility": -0.6669934640522877,
+      "SAR": 0.08137254901960785,
+      "hazard": 0.14444444444444443,
+      "WRR": 0.24291776209584431,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:5000ms",
+      "setting": "p0",
+      "grounding": 0.41830065359477125,
+      "latency_p50_ms": 3237.05122503452,
+      "mean_reward": -1.8660130718954249,
+      "utility": -1.8660130718954249,
+      "SAR": 0.3055555555555556,
+      "hazard": 0.4117647058823529,
+      "WRR": 0.26953125,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:5000ms",
+      "setting": "p25",
+      "grounding": 0.41830065359477125,
+      "latency_p50_ms": 3237.05122503452,
+      "mean_reward": -1.4209150326797384,
+      "utility": -1.4209150326797384,
+      "SAR": 0.23300653594771242,
+      "hazard": 0.3133986928104575,
+      "WRR": 0.27160909516548615,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:5000ms",
+      "setting": "p50",
+      "grounding": 0.41830065359477125,
+      "latency_p50_ms": 3237.05122503452,
+      "mean_reward": -1.0379084967320262,
+      "utility": -1.0379084967320262,
+      "SAR": 0.15718954248366013,
+      "hazard": 0.22745098039215686,
+      "WRR": 0.26893237221654553,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:5000ms",
+      "setting": "p75",
+      "grounding": 0.41830065359477125,
+      "latency_p50_ms": 3237.05122503452,
+      "mean_reward": -0.6663398692810457,
+      "utility": -0.6663398692810457,
+      "SAR": 0.0803921568627451,
+      "hazard": 0.14411764705882352,
+      "WRR": 0.24503776355985502,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:5000ms",
+      "setting": "p75_early",
+      "grounding": 0.41830065359477125,
+      "latency_p50_ms": 3237.05122503452,
+      "mean_reward": -0.6663398692810457,
+      "utility": -0.6663398692810457,
+      "SAR": 0.0803921568627451,
+      "hazard": 0.14411764705882352,
+      "WRR": 0.24503776355985502,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:8000ms",
+      "setting": "p0",
+      "grounding": 0.4330065359477125,
+      "latency_p50_ms": 3276.1900941841304,
+      "mean_reward": -1.7516339869281048,
+      "utility": -1.7516339869281048,
+      "SAR": 0.31699346405228757,
+      "hazard": 0.39052287581699346,
+      "WRR": 0.2679245283018868,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:8000ms",
+      "setting": "p25",
+      "grounding": 0.4330065359477125,
+      "latency_p50_ms": 3276.1900941841304,
+      "mean_reward": -1.3290849673202616,
+      "utility": -1.3290849673202616,
+      "SAR": 0.242156862745098,
+      "hazard": 0.29640522875816994,
+      "WRR": 0.26913911724709516,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:8000ms",
+      "setting": "p50",
+      "grounding": 0.4330065359477125,
+      "latency_p50_ms": 3276.1900941841304,
+      "mean_reward": -0.9764705882352942,
+      "utility": -0.9764705882352942,
+      "SAR": 0.16241830065359478,
+      "hazard": 0.21601307189542482,
+      "WRR": 0.265916185608004,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:8000ms",
+      "setting": "p75",
+      "grounding": 0.4330065359477125,
+      "latency_p50_ms": 3276.1900941841304,
+      "mean_reward": -0.6264705882352941,
+      "utility": -0.6264705882352941,
+      "SAR": 0.08300653594771241,
+      "hazard": 0.1366013071895425,
+      "WRR": 0.24150051216214372,
+      "n_seeds": 5
+    },
+    {
+      "router": "cap:8000ms",
+      "setting": "p75_early",
+      "grounding": 0.4330065359477125,
+      "latency_p50_ms": 3276.1900941841304,
+      "mean_reward": -0.6264705882352941,
+      "utility": -0.6264705882352941,
+      "SAR": 0.08300653594771241,
+      "hazard": 0.1366013071895425,
+      "WRR": 0.24150051216214372,
+      "n_seeds": 5
+    },
+    {
+      "router": "cascade:vol",
+      "setting": "p0",
+      "grounding": 0.4084967320261438,
+      "latency_p50_ms": 2657.529844902456,
+      "mean_reward": -2.406862745098039,
+      "utility": -2.406862745098039,
+      "SAR": 0.4019607843137255,
+      "hazard": 0.5604575163398693,
+      "WRR": 0.016,
+      "n_seeds": 5
+    },
+    {
+      "router": "cascade:vol",
+      "setting": "p25",
+      "grounding": 0.4084967320261438,
+      "latency_p50_ms": 2657.529844902456,
+      "mean_reward": -1.8895424836601307,
+      "utility": -1.8895424836601307,
+      "SAR": 0.3071895424836601,
+      "hazard": 0.438562091503268,
+      "WRR": 0.012691229609317099,
+      "n_seeds": 5
+    },
+    {
+      "router": "cascade:vol",
+      "setting": "p50",
+      "grounding": 0.5065359477124183,
+      "latency_p50_ms": 3230.415374971926,
+      "mean_reward": -1.315686274509804,
+      "utility": -1.315686274509804,
+      "SAR": 0.25130718954248366,
+      "hazard": 0.3133986928104575,
+      "WRR": 0.0,
+      "n_seeds": 5
+    },
+    {
+      "router": "cascade:vol",
+      "setting": "p75",
+      "grounding": 0.511437908496732,
+      "latency_p50_ms": 3290.574165992439,
+      "mean_reward": -0.842483660130719,
+      "utility": -0.842483660130719,
+      "SAR": 0.11862745098039215,
+      "hazard": 0.19019607843137254,
+      "WRR": 0.07779205465836977,
+      "n_seeds": 5
+    },
+    {
+      "router": "cascade:vol",
+      "setting": "p75_early",
+      "grounding": 0.511437908496732,
+      "latency_p50_ms": 3290.574165992439,
+      "mean_reward": -0.842483660130719,
+      "utility": -0.842483660130719,
+      "SAR": 0.11862745098039215,
+      "hazard": 0.19019607843137254,
+      "WRR": 0.07779205465836977,
+      "n_seeds": 5
+    },
+    {
+      "router": "oracle",
+      "setting": "p0",
+      "grounding": 0.7598039215686274,
+      "latency_p50_ms": 3246.040165890008,
+      "mean_reward": 0.5343137254901961,
+      "utility": 0.5343137254901961,
+      "SAR": 0.7532679738562091,
+      "hazard": 0.042483660130718956,
+      "WRR": 0.008602150537634409,
+      "n_seeds": 5
+    },
+    {
+      "router": "oracle",
+      "setting": "p25",
+      "grounding": 0.6624183006535947,
+      "latency_p50_ms": 3216.0172841511667,
+      "mean_reward": 0.3977124183006536,
+      "utility": 0.3977124183006536,
+      "SAR": 0.5640522875816993,
+      "hazard": 0.03235294117647059,
+      "WRR": 0.008036557307250652,
+      "n_seeds": 5
+    },
+    {
+      "router": "oracle",
+      "setting": "p50",
+      "grounding": 0.5781045751633986,
+      "latency_p50_ms": 3157.593230670318,
+      "mean_reward": 0.2215686274509804,
+      "utility": 0.2215686274509804,
+      "SAR": 0.3784313725490196,
+      "hazard": 0.030718954248366015,
+      "WRR": 0.008598144785384357,
+      "n_seeds": 5
+    },
+    {
+      "router": "oracle",
+      "setting": "p75",
+      "grounding": 0.4856209150326797,
+      "latency_p50_ms": 2887.123498506844,
+      "mean_reward": 0.08071895424836602,
+      "utility": 0.08071895424836602,
+      "SAR": 0.19183006535947714,
+      "hazard": 0.021895424836601306,
+      "WRR": 0.008547855274784579,
+      "n_seeds": 5
+    },
+    {
+      "router": "oracle",
+      "setting": "p75_early",
+      "grounding": 0.4856209150326797,
+      "latency_p50_ms": 2887.123498506844,
+      "mean_reward": 0.08071895424836602,
+      "utility": 0.08071895424836602,
+      "SAR": 0.19183006535947714,
+      "hazard": 0.021895424836601306,
+      "WRR": 0.008547855274784579,
+      "n_seeds": 5
+    },
+    {
+      "router": "prior:accuracy",
+      "setting": "p0",
+      "grounding": 0.511437908496732,
+      "latency_p50_ms": 3290.574165992439,
+      "mean_reward": -1.7941176470588236,
+      "utility": -1.7941176470588236,
+      "SAR": 0.4738562091503268,
+      "hazard": 0.44607843137254904,
+      "WRR": 0.07348242811501597,
+      "n_seeds": 5
+    },
+    {
+      "router": "prior:accuracy",
+      "setting": "p25",
+      "grounding": 0.511437908496732,
+      "latency_p50_ms": 3290.574165992439,
+      "mean_reward": -1.453267973856209,
+      "utility": -1.453267973856209,
+      "SAR": 0.3549019607843137,
+      "hazard": 0.35620915032679734,
+      "WRR": 0.0709269585676446,
+      "n_seeds": 5
+    },
+    {
+      "router": "prior:accuracy",
+      "setting": "p50",
+      "grounding": 0.511437908496732,
+      "latency_p50_ms": 3290.574165992439,
+      "mean_reward": -1.1578431372549018,
+      "utility": -1.1578431372549018,
+      "SAR": 0.23169934640522877,
+      "hazard": 0.2738562091503268,
+      "WRR": 0.08061806115270473,
+      "n_seeds": 5
+    },
+    {
+      "router": "prior:accuracy",
+      "setting": "p75",
+      "grounding": 0.511437908496732,
+      "latency_p50_ms": 3290.574165992439,
+      "mean_reward": -0.842483660130719,
+      "utility": -0.842483660130719,
+      "SAR": 0.11862745098039215,
+      "hazard": 0.19019607843137254,
+      "WRR": 0.07779205465836977,
+      "n_seeds": 5
+    },
+    {
+      "router": "prior:accuracy",
+      "setting": "p75_early",
+      "grounding": 0.511437908496732,
+      "latency_p50_ms": 3290.574165992439,
+      "mean_reward": -0.842483660130719,
+      "utility": -0.842483660130719,
+      "SAR": 0.11862745098039215,
+      "hazard": 0.19019607843137254,
+      "WRR": 0.07779205465836977,
+      "n_seeds": 5
+    },
+    {
+      "router": "prior:speed",
+      "setting": "p0",
+      "grounding": 0.4084967320261438,
+      "latency_p50_ms": 2657.529844902456,
+      "mean_reward": -2.406862745098039,
+      "utility": -2.406862745098039,
+      "SAR": 0.4019607843137255,
+      "hazard": 0.5604575163398693,
+      "WRR": 0.016,
+      "n_seeds": 5
+    },
+    {
+      "router": "prior:speed",
+      "setting": "p25",
+      "grounding": 0.4084967320261438,
+      "latency_p50_ms": 2657.529844902456,
+      "mean_reward": -1.8895424836601307,
+      "utility": -1.8895424836601307,
+      "SAR": 0.3071895424836601,
+      "hazard": 0.438562091503268,
+      "WRR": 0.012691229609317099,
+      "n_seeds": 5
+    },
+    {
+      "router": "prior:speed",
+      "setting": "p50",
+      "grounding": 0.4084967320261438,
+      "latency_p50_ms": 2657.529844902456,
+      "mean_reward": -1.4790849673202615,
+      "utility": -1.4790849673202615,
+      "SAR": 0.2019607843137255,
+      "hazard": 0.3356209150326797,
+      "WRR": 0.014488719272944752,
+      "n_seeds": 5
+    },
+    {
+      "router": "prior:speed",
+      "setting": "p75",
+      "grounding": 0.4084967320261438,
+      "latency_p50_ms": 2657.529844902456,
+      "mean_reward": -1.0598039215686275,
+      "utility": -1.0598039215686275,
+      "SAR": 0.10032679738562092,
+      "hazard": 0.23169934640522874,
+      "WRR": 0.01631578947368421,
+      "n_seeds": 5
+    },
+    {
+      "router": "prior:speed",
+      "setting": "p75_early",
+      "grounding": 0.4084967320261438,
+      "latency_p50_ms": 2657.529844902456,
+      "mean_reward": -1.0598039215686275,
+      "utility": -1.0598039215686275,
+      "SAR": 0.10032679738562092,
+      "hazard": 0.23169934640522874,
+      "WRR": 0.01631578947368421,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:gemma3:12b",
+      "setting": "p0",
+      "grounding": 0.35947712418300654,
+      "latency_p50_ms": 3281.085295137018,
+      "mean_reward": -2.7663398692810457,
+      "utility": -2.7663398692810457,
+      "SAR": 0.35294117647058826,
+      "hazard": 0.6225490196078431,
+      "WRR": 0.01818181818181818,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:gemma3:12b",
+      "setting": "p25",
+      "grounding": 0.35947712418300654,
+      "latency_p50_ms": 3281.085295137018,
+      "mean_reward": -2.1937908496732024,
+      "utility": -2.1937908496732024,
+      "SAR": 0.2630718954248366,
+      "hazard": 0.4905228758169935,
+      "WRR": 0.015925756272623513,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:gemma3:12b",
+      "setting": "p50",
+      "grounding": 0.35947712418300654,
+      "latency_p50_ms": 3281.085295137018,
+      "mean_reward": -1.6516339869281045,
+      "utility": -1.6516339869281045,
+      "SAR": 0.17516339869281045,
+      "hazard": 0.36470588235294116,
+      "WRR": 0.018174549652921996,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:gemma3:12b",
+      "setting": "p75",
+      "grounding": 0.35947712418300654,
+      "latency_p50_ms": 3281.085295137018,
+      "mean_reward": -1.119607843137255,
+      "utility": -1.119607843137255,
+      "SAR": 0.08823529411764705,
+      "hazard": 0.24117647058823527,
+      "WRR": 0.02049862335497234,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:gemma3:12b",
+      "setting": "p75_early",
+      "grounding": 0.35947712418300654,
+      "latency_p50_ms": 3281.085295137018,
+      "mean_reward": -1.119607843137255,
+      "utility": -1.119607843137255,
+      "SAR": 0.08823529411764705,
+      "hazard": 0.24117647058823527,
+      "WRR": 0.02049862335497234,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:llama3.2-vision:11b",
+      "setting": "p0",
+      "grounding": 0.36437908496732024,
+      "latency_p50_ms": 3374.5009349659085,
+      "mean_reward": -0.75,
+      "utility": -0.75,
+      "SAR": 0.14215686274509803,
+      "hazard": 0.13398692810457516,
+      "WRR": 0.6098654708520179,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:llama3.2-vision:11b",
+      "setting": "p25",
+      "grounding": 0.36437908496732024,
+      "latency_p50_ms": 3374.5009349659085,
+      "mean_reward": -0.6705882352941177,
+      "utility": -0.6705882352941177,
+      "SAR": 0.10784313725490195,
+      "hazard": 0.12222222222222223,
+      "WRR": 0.6079057974363815,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:llama3.2-vision:11b",
+      "setting": "p50",
+      "grounding": 0.36437908496732024,
+      "latency_p50_ms": 3374.5009349659085,
+      "mean_reward": -0.634313725490196,
+      "utility": -0.634313725490196,
+      "SAR": 0.07320261437908497,
+      "hazard": 0.1196078431372549,
+      "WRR": 0.5995706455045511,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:llama3.2-vision:11b",
+      "setting": "p75",
+      "grounding": 0.36437908496732024,
+      "latency_p50_ms": 3374.5009349659085,
+      "mean_reward": -0.5379084967320262,
+      "utility": -0.5379084967320262,
+      "SAR": 0.038235294117647055,
+      "hazard": 0.10490196078431373,
+      "WRR": 0.57321908349027,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:llama3.2-vision:11b",
+      "setting": "p75_early",
+      "grounding": 0.36437908496732024,
+      "latency_p50_ms": 3374.5009349659085,
+      "mean_reward": -0.5379084967320262,
+      "utility": -0.5379084967320262,
+      "SAR": 0.038235294117647055,
+      "hazard": 0.10490196078431373,
+      "WRR": 0.57321908349027,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:32b",
+      "setting": "p0",
+      "grounding": 0.48039215686274506,
+      "latency_p50_ms": 6803.3919907175,
+      "mean_reward": -2.088235294117647,
+      "utility": -2.088235294117647,
+      "SAR": 0.47058823529411764,
+      "hazard": 0.5098039215686274,
+      "WRR": 0.02040816326530612,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:32b",
+      "setting": "p25",
+      "grounding": 0.48039215686274506,
+      "latency_p50_ms": 6803.3919907175,
+      "mean_reward": -1.684313725490196,
+      "utility": -1.684313725490196,
+      "SAR": 0.35196078431372546,
+      "hazard": 0.40588235294117647,
+      "WRR": 0.019167721942574812,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:32b",
+      "setting": "p50",
+      "grounding": 0.48039215686274506,
+      "latency_p50_ms": 6803.3919907175,
+      "mean_reward": -1.3032679738562092,
+      "utility": -1.3032679738562092,
+      "SAR": 0.23594771241830065,
+      "hazard": 0.30686274509803924,
+      "WRR": 0.020453062100519837,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:32b",
+      "setting": "p75",
+      "grounding": 0.48039215686274506,
+      "latency_p50_ms": 6803.3919907175,
+      "mean_reward": -0.9388888888888889,
+      "utility": -0.9388888888888889,
+      "SAR": 0.1196078431372549,
+      "hazard": 0.2111111111111111,
+      "WRR": 0.02367652562774514,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:32b",
+      "setting": "p75_early",
+      "grounding": 0.48039215686274506,
+      "latency_p50_ms": 6803.3919907175,
+      "mean_reward": -0.9388888888888889,
+      "utility": -0.9388888888888889,
+      "SAR": 0.1196078431372549,
+      "hazard": 0.2111111111111111,
+      "WRR": 0.02367652562774514,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:3b",
+      "setting": "p0",
+      "grounding": 0.4084967320261438,
+      "latency_p50_ms": 2657.529844902456,
+      "mean_reward": -2.406862745098039,
+      "utility": -2.406862745098039,
+      "SAR": 0.4019607843137255,
+      "hazard": 0.5604575163398693,
+      "WRR": 0.016,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:3b",
+      "setting": "p25",
+      "grounding": 0.4084967320261438,
+      "latency_p50_ms": 2657.529844902456,
+      "mean_reward": -1.8895424836601307,
+      "utility": -1.8895424836601307,
+      "SAR": 0.3071895424836601,
+      "hazard": 0.438562091503268,
+      "WRR": 0.012691229609317099,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:3b",
+      "setting": "p50",
+      "grounding": 0.4084967320261438,
+      "latency_p50_ms": 2657.529844902456,
+      "mean_reward": -1.4790849673202615,
+      "utility": -1.4790849673202615,
+      "SAR": 0.2019607843137255,
+      "hazard": 0.3356209150326797,
+      "WRR": 0.014488719272944752,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:3b",
+      "setting": "p75",
+      "grounding": 0.4084967320261438,
+      "latency_p50_ms": 2657.529844902456,
+      "mean_reward": -1.0598039215686275,
+      "utility": -1.0598039215686275,
+      "SAR": 0.10032679738562092,
+      "hazard": 0.23169934640522874,
+      "WRR": 0.01631578947368421,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:3b",
+      "setting": "p75_early",
+      "grounding": 0.4084967320261438,
+      "latency_p50_ms": 2657.529844902456,
+      "mean_reward": -1.0598039215686275,
+      "utility": -1.0598039215686275,
+      "SAR": 0.10032679738562092,
+      "hazard": 0.23169934640522874,
+      "WRR": 0.01631578947368421,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:7b",
+      "setting": "p0",
+      "grounding": 0.511437908496732,
+      "latency_p50_ms": 3290.574165992439,
+      "mean_reward": -1.7941176470588236,
+      "utility": -1.7941176470588236,
+      "SAR": 0.4738562091503268,
+      "hazard": 0.44607843137254904,
+      "WRR": 0.07348242811501597,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:7b",
+      "setting": "p25",
+      "grounding": 0.511437908496732,
+      "latency_p50_ms": 3290.574165992439,
+      "mean_reward": -1.453267973856209,
+      "utility": -1.453267973856209,
+      "SAR": 0.3549019607843137,
+      "hazard": 0.35620915032679734,
+      "WRR": 0.0709269585676446,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:7b",
+      "setting": "p50",
+      "grounding": 0.511437908496732,
+      "latency_p50_ms": 3290.574165992439,
+      "mean_reward": -1.1578431372549018,
+      "utility": -1.1578431372549018,
+      "SAR": 0.23169934640522877,
+      "hazard": 0.2738562091503268,
+      "WRR": 0.08061806115270473,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:7b",
+      "setting": "p75",
+      "grounding": 0.511437908496732,
+      "latency_p50_ms": 3290.574165992439,
+      "mean_reward": -0.842483660130719,
+      "utility": -0.842483660130719,
+      "SAR": 0.11862745098039215,
+      "hazard": 0.19019607843137254,
+      "WRR": 0.07779205465836977,
+      "n_seeds": 5
+    },
+    {
+      "router": "static:qwen2.5vl:7b",
+      "setting": "p75_early",
+      "grounding": 0.511437908496732,
+      "latency_p50_ms": 3290.574165992439,
+      "mean_reward": -0.842483660130719,
+      "utility": -0.842483660130719,
+      "SAR": 0.11862745098039215,
+      "hazard": 0.19019607843137254,
+      "WRR": 0.07779205465836977,
+      "n_seeds": 5
+    }
+  ],
+  "model_counts": {
+    "cap:3000ms@p0": {
+      "gemma3:12b": 153.0,
+      "llama3.2-vision:11b": 69.0,
+      "qwen2.5vl:3b": 362.0,
+      "qwen2.5vl:7b": 28.0
+    },
+    "cap:3000ms@p25": {
+      "gemma3:12b": 153.0,
+      "llama3.2-vision:11b": 69.0,
+      "qwen2.5vl:3b": 362.0,
+      "qwen2.5vl:7b": 28.0
+    },
+    "cap:3000ms@p50": {
+      "gemma3:12b": 153.0,
+      "llama3.2-vision:11b": 69.0,
+      "qwen2.5vl:3b": 362.0,
+      "qwen2.5vl:7b": 28.0
+    },
+    "cap:3000ms@p75": {
+      "gemma3:12b": 153.0,
+      "llama3.2-vision:11b": 69.0,
+      "qwen2.5vl:3b": 362.0,
+      "qwen2.5vl:7b": 28.0
+    },
+    "cap:3000ms@p75_early": {
+      "gemma3:12b": 153.0,
+      "llama3.2-vision:11b": 69.0,
+      "qwen2.5vl:3b": 362.0,
+      "qwen2.5vl:7b": 28.0
+    },
+    "cap:4000ms@p0": {
+      "gemma3:12b": 167.0,
+      "llama3.2-vision:11b": 249.0,
+      "qwen2.5vl:3b": 160.0,
+      "qwen2.5vl:7b": 36.0
+    },
+    "cap:4000ms@p25": {
+      "gemma3:12b": 167.0,
+      "llama3.2-vision:11b": 249.0,
+      "qwen2.5vl:3b": 160.0,
+      "qwen2.5vl:7b": 36.0
+    },
+    "cap:4000ms@p50": {
+      "gemma3:12b": 167.0,
+      "llama3.2-vision:11b": 249.0,
+      "qwen2.5vl:3b": 160.0,
+      "qwen2.5vl:7b": 36.0
+    },
+    "cap:4000ms@p75": {
+      "gemma3:12b": 167.0,
+      "llama3.2-vision:11b": 249.0,
+      "qwen2.5vl:3b": 160.0,
+      "qwen2.5vl:7b": 36.0
+    },
+    "cap:4000ms@p75_early": {
+      "gemma3:12b": 167.0,
+      "llama3.2-vision:11b": 249.0,
+      "qwen2.5vl:3b": 160.0,
+      "qwen2.5vl:7b": 36.0
+    },
+    "cap:5000ms@p0": {
+      "gemma3:12b": 148.0,
+      "llama3.2-vision:11b": 250.0,
+      "qwen2.5vl:3b": 177.0,
+      "qwen2.5vl:7b": 37.0
+    },
+    "cap:5000ms@p25": {
+      "gemma3:12b": 148.0,
+      "llama3.2-vision:11b": 250.0,
+      "qwen2.5vl:3b": 177.0,
+      "qwen2.5vl:7b": 37.0
+    },
+    "cap:5000ms@p50": {
+      "gemma3:12b": 148.0,
+      "llama3.2-vision:11b": 250.0,
+      "qwen2.5vl:3b": 177.0,
+      "qwen2.5vl:7b": 37.0
+    },
+    "cap:5000ms@p75": {
+      "gemma3:12b": 148.0,
+      "llama3.2-vision:11b": 250.0,
+      "qwen2.5vl:3b": 177.0,
+      "qwen2.5vl:7b": 37.0
+    },
+    "cap:5000ms@p75_early": {
+      "gemma3:12b": 148.0,
+      "llama3.2-vision:11b": 250.0,
+      "qwen2.5vl:3b": 177.0,
+      "qwen2.5vl:7b": 37.0
+    },
+    "cap:8000ms@p0": {
+      "gemma3:12b": 78.0,
+      "llama3.2-vision:11b": 254.0,
+      "qwen2.5vl:32b": 69.0,
+      "qwen2.5vl:3b": 174.0,
+      "qwen2.5vl:7b": 37.0
+    },
+    "cap:8000ms@p25": {
+      "gemma3:12b": 78.0,
+      "llama3.2-vision:11b": 254.0,
+      "qwen2.5vl:32b": 69.0,
+      "qwen2.5vl:3b": 174.0,
+      "qwen2.5vl:7b": 37.0
+    },
+    "cap:8000ms@p50": {
+      "gemma3:12b": 78.0,
+      "llama3.2-vision:11b": 254.0,
+      "qwen2.5vl:32b": 69.0,
+      "qwen2.5vl:3b": 174.0,
+      "qwen2.5vl:7b": 37.0
+    },
+    "cap:8000ms@p75": {
+      "gemma3:12b": 78.0,
+      "llama3.2-vision:11b": 254.0,
+      "qwen2.5vl:32b": 69.0,
+      "qwen2.5vl:3b": 174.0,
+      "qwen2.5vl:7b": 37.0
+    },
+    "cap:8000ms@p75_early": {
+      "gemma3:12b": 78.0,
+      "llama3.2-vision:11b": 254.0,
+      "qwen2.5vl:32b": 69.0,
+      "qwen2.5vl:3b": 174.0,
+      "qwen2.5vl:7b": 37.0
+    },
+    "cascade:vol@p0": {
+      "qwen2.5vl:3b": 610.0,
+      "qwen2.5vl:7b": 2.0
+    },
+    "cascade:vol@p25": {
+      "qwen2.5vl:3b": 610.0,
+      "qwen2.5vl:7b": 2.0
+    },
+    "cascade:vol@p50": {
+      "qwen2.5vl:3b": 49.0,
+      "qwen2.5vl:7b": 563.0
+    },
+    "cascade:vol@p75": {
+      "qwen2.5vl:7b": 612.0
+    },
+    "cascade:vol@p75_early": {
+      "qwen2.5vl:7b": 612.0
+    },
+    "oracle@p0": {
+      "gemma3:12b": 53.0,
+      "llama3.2-vision:11b": 109.0,
+      "qwen2.5vl:32b": 53.0,
+      "qwen2.5vl:3b": 278.0,
+      "qwen2.5vl:7b": 119.0
+    },
+    "oracle@p25": {
+      "gemma3:12b": 38.4,
+      "llama3.2-vision:11b": 90.2,
+      "qwen2.5vl:32b": 39.2,
+      "qwen2.5vl:3b": 351.2,
+      "qwen2.5vl:7b": 93.0
+    },
+    "oracle@p50": {
+      "gemma3:12b": 26.2,
+      "llama3.2-vision:11b": 69.4,
+      "qwen2.5vl:32b": 30.0,
+      "qwen2.5vl:3b": 417.0,
+      "qwen2.5vl:7b": 69.4
+    },
+    "oracle@p75": {
+      "gemma3:12b": 14.0,
+      "llama3.2-vision:11b": 55.8,
+      "qwen2.5vl:32b": 15.8,
+      "qwen2.5vl:3b": 479.0,
+      "qwen2.5vl:7b": 47.4
+    },
+    "oracle@p75_early": {
+      "gemma3:12b": 14.0,
+      "llama3.2-vision:11b": 55.8,
+      "qwen2.5vl:32b": 15.8,
+      "qwen2.5vl:3b": 479.0,
+      "qwen2.5vl:7b": 47.4
+    },
+    "prior:accuracy@p0": {
+      "qwen2.5vl:7b": 612.0
+    },
+    "prior:accuracy@p25": {
+      "qwen2.5vl:7b": 612.0
+    },
+    "prior:accuracy@p50": {
+      "qwen2.5vl:7b": 612.0
+    },
+    "prior:accuracy@p75": {
+      "qwen2.5vl:7b": 612.0
+    },
+    "prior:accuracy@p75_early": {
+      "qwen2.5vl:7b": 612.0
+    },
+    "prior:speed@p0": {
+      "qwen2.5vl:3b": 610.0,
+      "qwen2.5vl:7b": 2.0
+    },
+    "prior:speed@p25": {
+      "qwen2.5vl:3b": 610.0,
+      "qwen2.5vl:7b": 2.0
+    },
+    "prior:speed@p50": {
+      "qwen2.5vl:3b": 610.0,
+      "qwen2.5vl:7b": 2.0
+    },
+    "prior:speed@p75": {
+      "qwen2.5vl:3b": 610.0,
+      "qwen2.5vl:7b": 2.0
+    },
+    "prior:speed@p75_early": {
+      "qwen2.5vl:3b": 610.0,
+      "qwen2.5vl:7b": 2.0
+    },
+    "static:gemma3:12b@p0": {
+      "gemma3:12b": 611.0,
+      "llama3.2-vision:11b": 1.0
+    },
+    "static:gemma3:12b@p25": {
+      "gemma3:12b": 611.0,
+      "llama3.2-vision:11b": 1.0
+    },
+    "static:gemma3:12b@p50": {
+      "gemma3:12b": 611.0,
+      "llama3.2-vision:11b": 1.0
+    },
+    "static:gemma3:12b@p75": {
+      "gemma3:12b": 611.0,
+      "llama3.2-vision:11b": 1.0
+    },
+    "static:gemma3:12b@p75_early": {
+      "gemma3:12b": 611.0,
+      "llama3.2-vision:11b": 1.0
+    },
+    "static:llama3.2-vision:11b@p0": {
+      "llama3.2-vision:11b": 612.0
+    },
+    "static:llama3.2-vision:11b@p25": {
+      "llama3.2-vision:11b": 612.0
+    },
+    "static:llama3.2-vision:11b@p50": {
+      "llama3.2-vision:11b": 612.0
+    },
+    "static:llama3.2-vision:11b@p75": {
+      "llama3.2-vision:11b": 612.0
+    },
+    "static:llama3.2-vision:11b@p75_early": {
+      "llama3.2-vision:11b": 612.0
+    },
+    "static:qwen2.5vl:32b@p0": {
+      "qwen2.5vl:32b": 612.0
+    },
+    "static:qwen2.5vl:32b@p25": {
+      "qwen2.5vl:32b": 612.0
+    },
+    "static:qwen2.5vl:32b@p50": {
+      "qwen2.5vl:32b": 612.0
+    },
+    "static:qwen2.5vl:32b@p75": {
+      "qwen2.5vl:32b": 612.0
+    },
+    "static:qwen2.5vl:32b@p75_early": {
+      "qwen2.5vl:32b": 612.0
+    },
+    "static:qwen2.5vl:3b@p0": {
+      "gemma3:12b": 1.0,
+      "qwen2.5vl:3b": 610.0,
+      "qwen2.5vl:7b": 1.0
+    },
+    "static:qwen2.5vl:3b@p25": {
+      "gemma3:12b": 1.0,
+      "qwen2.5vl:3b": 610.0,
+      "qwen2.5vl:7b": 1.0
+    },
+    "static:qwen2.5vl:3b@p50": {
+      "gemma3:12b": 1.0,
+      "qwen2.5vl:3b": 610.0,
+      "qwen2.5vl:7b": 1.0
+    },
+    "static:qwen2.5vl:3b@p75": {
+      "gemma3:12b": 1.0,
+      "qwen2.5vl:3b": 610.0,
+      "qwen2.5vl:7b": 1.0
+    },
+    "static:qwen2.5vl:3b@p75_early": {
+      "gemma3:12b": 1.0,
+      "qwen2.5vl:3b": 610.0,
+      "qwen2.5vl:7b": 1.0
+    },
+    "static:qwen2.5vl:7b@p0": {
+      "qwen2.5vl:7b": 612.0
+    },
+    "static:qwen2.5vl:7b@p25": {
+      "qwen2.5vl:7b": 612.0
+    },
+    "static:qwen2.5vl:7b@p50": {
+      "qwen2.5vl:7b": 612.0
+    },
+    "static:qwen2.5vl:7b@p75": {
+      "qwen2.5vl:7b": 612.0
+    },
+    "static:qwen2.5vl:7b@p75_early": {
+      "qwen2.5vl:7b": 612.0
+    }
+  },
+  "cost_weights": {
+    "lambda_hazard": 5.0,
+    "mu_wrongful_revoke": 1.0
+  }
+}

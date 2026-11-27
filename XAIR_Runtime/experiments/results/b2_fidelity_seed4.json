@@ -1,0 +1,55 @@
+{
+  "summary": {
+    "n_frames": 500,
+    "model": "qwen2.5vl:7b",
+    "freshness_ms": 4000,
+    "p_drift": 0.5,
+    "drift_offset_ms": 250,
+    "seed": 4,
+    "n_comparisons": 3000,
+    "disagreements": 0,
+    "disagreement_rate": 0.0,
+    "acceptance_threshold": 0.05,
+    "accepted": true,
+    "by_gate_anchor": {
+      "direct|capture": {
+        "n": 500,
+        "disagreements": 0,
+        "disagreement_rate": 0.0
+      },
+      "direct|emission": {
+        "n": 500,
+        "disagreements": 0,
+        "disagreement_rate": 0.0
+      },
+      "freshness_only|capture": {
+        "n": 500,
+        "disagreements": 0,
+        "disagreement_rate": 0.0
+      },
+      "freshness_only|emission": {
+        "n": 500,
+        "disagreements": 0,
+        "disagreement_rate": 0.0
+      },
+      "xair|capture": {
+        "n": 500,
+        "disagreements": 0,
+        "disagreement_rate": 0.0
+      },
+      "xair|emission": {
+        "n": 500,
+        "disagreements": 0,
+        "disagreement_rate": 0.0
+      }
+    },
+    "provenance": {
+      "host": "dagati-llm169",
+      "platform": "Linux-6.8.12-18-pve-x86_64-with-glibc2.35",
+      "loadavg_1m": 39.92,
+      "xair_version": "1.4.0",
+      "code_commit": "b156b8e",
+      "runtime_or_gateway_modified": false
+    }
+  }
+}

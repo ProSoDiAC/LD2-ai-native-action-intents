@@ -1,0 +1,7 @@
+{
+  "arm": "A1c",
+  "attempted": 100,
+  "SER": 0.0,
+  "schema_validity_rate": 1.0,
+  "inference_p50_ms": 8350.443169940263
+}

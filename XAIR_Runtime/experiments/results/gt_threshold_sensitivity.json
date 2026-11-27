@@ -1,0 +1,50 @@
+{
+  "n_frames": 2000,
+  "n_defective_with_area": 1000,
+  "action_flip_fraction": {
+    "p40": 0.0265,
+    "p60": 0.034
+  },
+  "action_flip_count": {
+    "p40": 53,
+    "p60": 68
+  },
+  "baseline": "in-sample per-category median (alternatives: in-sample P40/P60)",
+  "pool_vs_sample_median_flips": 19,
+  "severity_flip_fraction": {
+    "p40": 0.0445,
+    "p60": 0.0535
+  },
+  "severity_flip_count": {
+    "p40": 89,
+    "p60": 107
+  },
+  "by_use_case": {
+    "uc1_triage": {
+      "n": 400,
+      "p40_flip_fraction": 0.045,
+      "p60_flip_fraction": 0.055
+    },
+    "uc2_restart": {
+      "n": 400,
+      "p40_flip_fraction": 0.0,
+      "p60_flip_fraction": 0.0
+    },
+    "uc3_speed": {
+      "n": 400,
+      "p40_flip_fraction": 0.045,
+      "p60_flip_fraction": 0.075
+    },
+    "uc4_conflict": {
+      "n": 400,
+      "p40_flip_fraction": 0.0,
+      "p60_flip_fraction": 0.0
+    },
+    "uc5_safety": {
+      "n": 400,
+      "p40_flip_fraction": 0.0425,
+      "p60_flip_fraction": 0.04
+    }
+  },
+  "note": "Synthetic protocol: minor/major split at the within-category defect-area percentile. Shifting the cut from the median to the 40th/60th percentile changes the assigned GT action on the reported fraction of frames."
+}

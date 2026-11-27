@@ -1,0 +1,3 @@
+Copy of LD1 (execution-gap study) used as the OPC UA cell for the LD2 live check.
+Only simulation/opcua_hil_bridge.py, docker/openplc and scripts are used; xair/ comes from XAIR_Runtime.
+Not LD1 itself: never push changes here to the LD1 repo.
